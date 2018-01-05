@@ -1,0 +1,406 @@
+Sl No,End-1,End-2,Id,Line Owner,End-1 Owner,End-2 Owner,Km,Conductor Type,SIL,No Load MVAR Generated,End1 LR,,End2 LR,,,,,,,,,End-1,,,,,,,End-2,,,,,
+,,,,,,,,,,,MVAR,S/W,MVAR,S/W,,,,,,,,50 MVAR SLR,50 MVAR NSLR,63 MVAR SLR,63 MVAR NSLR,80  MVAR SLR,80 MVAR NSLR,,50 MVAR SLR,50 MVAR NSLR,63 MVAR SLR,63 MVAR NSLR,80  MVAR SLR,80 MVAR NSLR
+1,ACBIL,Bilaspur ,1,WRTS-1,ACBIL,WRTS-1,56,Twin ACSR Moose,517,31.08,-,-,-,-,,,X,B,Zpu,Z(ohms),,0,0,0,0,0,0,,0,0,0,0,0,0
+2,ACBIL,MCCPL,1,WRTS-1,ACBIL,MCCPL,16,Twin ACSR Moose,517,8.88,-,-,-,-,,Twin ACSR Moose,0.0002075,0.00555,0.193358184,309.3730947,,0,0,0,0,0,0,,0,0,0,0,0,0
+3,Akola,Aurangabad-PG,1,MSETCL,WRTS-1,WRTS-1,178,Twin ACSR Moose,517,98.79,50,-,50,-,,Quad AAAC Moose,0.0001676,0.00693,0.155514321,248.8229144,,0,1,0,0,0,0,,0,1,0,0,0,0
+4,Akola,Aurangabad-PG,2,MSETCL,WRTS-1,WRTS-1,178,Twin ACSR Moose,517,98.79,50,-,50,-,,Quad ACSR Moose,0.000158,0.00732,0.146917322,235.0677149,,0,1,0,0,0,0,,0,1,0,0,0,0
+5,Akola,Nandgaonpeth,1,MSETCL,MSETCL,Ratan India,117,Twin ACSR Moose,517,64.935,-,-,-,-,,Triple ACSR Snowbird,0.0001718,0.00673,0.159773242,255.6371872,,0,0,0,0,0,0,,0,0,0,0,0,0
+6,Akola,Akola(2),1,MEGPTL,MSETCL,MEGPTL,30,Twin ACSR Moose,517,16.65,-,-,-,-,,Quad Bersimis,0.000156,0.00746,0.144608188,231.3731014,,0,0,0,0,0,0,,0,0,0,0,0,0
+7,Akola,Akola(2),2,MEGPTL,MSETCL,MEGPTL,30,Twin ACSR Moose,517,16.65,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+8,Akola(2),Nandgaonpeth,1,MEGPTL,MEGPTL,Ratan India,104,Twin ACSR Moose,517,57.72,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+9,Akola(2),Nandgaonpeth,2,MEGPTL,MEGPTL,Ratan India,104,Twin ACSR Moose,517,57.72,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+10,Amreli,Hadala,1,GETCO,GETCO,GETCO,165,Twin ACSR Moose,517,91.575,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+11,Amreli,Chorania,1,GETCO,GETCO,GETCO,164,Twin ACSR Moose,517,91.02,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+12,Amreli,Jetpur,1,GETCO,GETCO,GETCO,96,Twin ACSR Moose,517,53.28,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+13,Amreli,Jetpur,2,GETCO,GETCO,GETCO,96,Twin ACSR Moose,517,53.28,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+14,APL-Mundra,Sami,1,ATIL,APL,ATIL,282,Twin ACSR Moose,517,156.51,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+15,APL-Mundra,Sami,2,ATIL,APL,ATIL,282,Twin ACSR Moose,517,156.51,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+16,APL-Mundra,Hadala,1,GETCO,GETCO,GETCO,233,Twin ACSR Moose,517,129.315,-,-,63,-,,,,,,,,0,0,0,0,0,0,,0,0,0,1,0,0
+17,APL-Mundra,Varsana,1,GETCO,APL,GETCO,84,Twin ACSR Moose,517,46.62,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+18,APL-Mundra,Varsana,2,GETCO,APL,GETCO,84,Twin ACSR Moose,517,46.62,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+19,APL-Mundra,Zerda(Kansari),1,GETCO,APL,GETCO,332,Twin ACSR Moose,517,184.26,-,-,63,-,,,,,,,,0,0,0,0,0,0,,0,0,0,1,0,0
+20,Asoj,Chorania,1,GETCO,GETCO,GETCO,177,Twin ACSR Moose,517,98.235,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+21,Asoj,Chorania,2,GETCO,GETCO,GETCO,166,Twin ACSR Moose,517,92.13,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+22,Asoj,Kosamba,1,GETCO,GETCO,GETCO,122,Twin ACSR Moose,517,67.71,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+23,Asoj,Wanakbori,1,GETCO,GETCO,GETCO,76,Twin ACSR Moose,517,42.18,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+24,Athena,Raigarh-PS(Kotra),1,ACPL,ACPL,WRTS-1,25,Quad ACSR Moose,681,18.3,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+25,Athena,Raigarh-PS(Kotra),2,ACPL,ACPL,WRTS-1,25,Quad ACSR Moose,681,18.3,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+26,Aurangabad-M(Waluj),Pune-PG(Shikrapur),1,WRTMPL,MSETCL,WRTS-1,315,Twin ACSR Moose,517,174.825,50,-,50,Yes,,,,,,,,0,1,0,0,0,0,,1,0,0,0,0,0
+27,Aurangabad-M(Waluj),Pune-PG(Shikrapur),2,WRTMPL,MSETCL,WRTS-1,315,Twin ACSR Moose,517,174.825,50,-,50,Yes,,,,,,,,0,1,0,0,0,0,,1,0,0,0,0,0
+28,Aurangabad-M(Waluj),Aurangabad-PG,1,WRTS-1,MSETCL,WRTS-1,54,Quad ACSR Moose,681,39.528,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+29,Aurangabad-M(Waluj),Aurangabad-PG,2,WRTS-1,MSETCL,WRTS-1,54,Quad ACSR Moose,681,39.528,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+30,Aurangabad-M(Waluj),Taptithanda,1,MSETCL,MSETCL,MSETCL,135,Twin ACSR Moose,517,74.925,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+31,Aurangabad-M(Waluj),Deepnagar,2,MSETCL,MSETCL,MSETCL,185,Twin ACSR Moose,517,102.675,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+32,Aurangabad-PG,Boisar,1,WRTS-1,WRTS-1,WRTS-1,327,Twin ACSR Moose,517,181.485,80,Yes,80,-,,,,,,,,0,0,0,0,1,0,,0,0,0,0,0,1
+33,Aurangabad-PG,Boisar,2,WRTS-1,WRTS-1,WRTS-1,327,Twin ACSR Moose,517,181.485,80,Yes,80,-,,,,,,,,0,0,0,0,1,0,,0,0,0,0,0,1
+34,Bableshwar,Padghe,1,MSETCL,MSETCL,MSETCL,174,Twin ACSR Moose,517,96.57,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+35,Bableshwar,Padghe,2,MSETCL,MSETCL,MSETCL,174,Twin ACSR Moose,517,96.57,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+36,Bableshwar,Aurangabad-M(Waluj),1,MSETCL,MSETCL,MSETCL,131,Twin ACSR Moose,517,72.705,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+37,Bableshwar,IB-Nasik,1,MSETCL,MSETCL,Ratan India,72,Twin ACSR Moose,517,39.96,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+38,Bableshwar,IB-Nasik,2,MSETCL,MSETCL,Ratan India,72,Twin ACSR Moose,517,39.96,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+39,Bachau,Ranchodpura,1,WRTS-2,WRTS-2,GETCO,282,Triple ACSR Snowbird,626,189.786,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+40,Bachau,Ranchodpura,2,WRTS-2,WRTS-2,GETCO,282,Triple ACSR Snowbird,626,189.786,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+41,Bachau,Varsana,1,WRTS-2,WRTS-2,GETCO,10,Twin ACSR Moose,517,5.55,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+42,Bachau,Varsana,2,WRTS-2,WRTS-2,GETCO,10,Twin ACSR Moose,517,5.55,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+43,Bhadrawati,Bhilai,1,WRTS-1,WRTS-1,CSPTCL,322,Twin ACSR Moose,517,178.71,50,-,80,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,1
+44,Bhadrawati,Raipur,1,WRTS-1,WRTS-1,WRTS-1,333,Twin ACSR Moose,517,184.815,50,-,80,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,1
+45,Bhadrawati,Raipur,2,WRTS-1,WRTS-1,WRTS-1,346,Twin ACSR Moose,517,192.03,63,-,50,Yes,,,,,,,,0,0,0,1,0,0,,1,0,0,0,0,0
+46,Bhadrawati,Raipur,3,WRTS-1,WRTS-1,WRTS-1,346,Twin ACSR Moose,517,192.03,63,-,63,-,,,,,,,,0,0,0,1,0,0,,0,0,0,1,0,0
+47,Bhadrawati,EMCO,1,GMR-EMCO,WRTS-1,GMR-EMCO,28,Twin ACSR Moose,517,15.54,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+48,Bhadrawati,EMCO,2,GMR-EMCO,WRTS-1,GMR-EMCO,28,Twin ACSR Moose,517,15.54,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+49,Bhadrawati,Parli-PG,1,WRTS-1,WRTS-1,WRTS-1,388,Twin ACSR Moose,517,215.34,63,-,63,-,,,,,,,,0,0,0,1,0,0,,0,0,0,1,0,0
+50,Bhadrawati,Dhariwal,1,WRTS-1,WRTS-1,Dhariwal Infra,15,Twin ACSR Moose,517,8.325,63,-,-,-,,,,,,,,0,0,0,1,0,0,,0,0,0,0,0,0
+51,Bhadrawati HVDC,Ramagundam,1,SRTS-1,WRTS-1,SRTS-1,178,Twin ACSR Moose,517,98.79,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+52,Bhadrawati HVDC,Ramagundam,2,SRTS-1,WRTS-1,SRTS-1,178,Twin ACSR Moose,517,98.79,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+53,Bhilai,Raipur,1,WRTS-1,CSPTCL,WRTS-1,13,Twin ACSR Moose,517,7.215,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+54,Bhilai,Seoni,1,WRTS-1,CSPTCL,WRTS-1,230,Twin ACSR Moose,517,127.65,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+55,Bhilai,Bhatapara,1,WRTS-1,CSPTCL,WRTS-1,93,Twin ACSR Moose,517,51.615,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+56,Bhilai,Raita,1,CSPTCL,CSPTCL,CSPTCL,56,Twin ACSR Moose,517,31.08,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+57,Bhilai,Raita,2,CSPTCL,CSPTCL,CSPTCL,56,Twin ACSR Moose,517,31.08,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+58,Bhilai,Raita,3,CSPTCL,CSPTCL,CSPTCL,56,Twin ACSR Moose,517,31.08,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+59,Bhopal-BDTCL,Bhopal-MP,1,BDTCL,BDTCL,MPPTCL,9,Twin ACSR Moose,517,4.995,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+60,Bhopal-BDTCL,Bhopal-MP,2,BDTCL,BDTCL,MPPTCL,9,Twin ACSR Moose,517,4.995,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+61,Bhopal-MP,Bina-MP,1,MPPTCL,MPPTCL,MPPTCL,289,Twin ACSR Moose,517,160.395,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+62,Bhopal-MP,Bina-MP,2,MPPTCL,MPPTCL,MPPTCL,273,Twin ACSR Moose,517,151.515,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+63,Bhopal-MP,Itarsi,1,MPPTCL,MPPTCL,WRST-2,98,Twin ACSR Moose,517,54.39,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+64,Bhopal-MP,Itarsi,2,MPPTCL,MPPTCL,WRST-2,98,Twin ACSR Moose,517,54.39,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+65,Bhopal-MP,Damoh,1,WRTS-2,MPPTCL,WRST-2,214,Twin ACSR Moose,517,118.77,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+66,Bhopal-MP,Damoh,2,WRTS-2,MPPTCL,WRST-2,214,Twin ACSR Moose,517,118.77,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+67,Bhusawal (Khadka),Bableshwar,1,MSETCL,MSETCL,MSETCL,220,Twin ACSR Moose,517,122.1,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+68,Bhusawal (Khadka),Aurangabad-M(Waluj),1,MSETCL,MSETCL,MSETCL,238,Twin ACSR Moose,517,132.09,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+69,Bhusawal (Khadka),Akola,1,MSETCL,MSETCL,MSETCL,182,Twin ACSR Moose,517,101.01,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+70,Bhusawal (Khadka),Deepnagar,1,MSETCL,MSETCL,MSETCL,15,Twin ACSR Moose,517,8.325,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+71,Bhusawal (Khadka),Deepnagar,2,MSETCL,MSETCL,MSETCL,15,Twin ACSR Moose,517,8.325,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+72,Bina-MP,JP-Bina,1,MPPTCL,MPPTCL,Jaypee,20,Twin ACSR Moose,517,11.1,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+73,Bina-MP,Bina-PG,1,WRTS-2,MPPTCL,WRST-2,3,Twin ACSR Moose,517,1.665,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+74,Bina-MP,Bina-PG,2,WRTS-2,MPPTCL,WRST-2,3,Twin ACSR Moose,517,1.665,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+75,Bina-MP,Bina-PG,3,WRTS-2,MPPTCL,WRST-2,3,Twin ACSR Moose,517,1.665,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+76,Bina-MP,Bina-PG,4,WRTS-2,MPPTCL,WRST-2,3,Twin ACSR Moose,517,1.665,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+77,Bina-PG,Shujalpur,1,WRTS-2,WRST-2,WRST-2,200,Twin ACSR Moose,517,111,63,Yes,50,-,,,,,,,,0,0,1,0,0,0,,0,1,0,0,0,0
+78,Bina-PG,Shujalpur,2,WRTS-2,WRST-2,WRST-2,200,Twin ACSR Moose,517,111,63,Yes,50,-,,,,,,,,0,0,1,0,0,0,,0,1,0,0,0,0
+79,Bina-PG,JP-Bina,1,WRTS-2,WRTS-2,Jaypee,20,Twin ACSR Moose,517,11.1,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+80,Bina-PG,Bina-NTS,1,WRTS-2,WRTS-2,NHPTL,1,Twin ACSR Moose,517,0.555,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+81,Bina-PG,NHPTL,1,WRTS-2,WRTS-2,NHPTL,0.4,Twin ACSR Moose,517,0.222,-,-,-,-,,,,,,,,,,,,,,,,,,,,
+82,Birsingpur,Katni,1,MPPTCL,MPPTCL,MPPTCL,118,Twin ACSR Moose,517,65.49,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+83,Birsingpur,Katni,2,MPPTCL,MPPTCL,MPPTCL,118,Twin ACSR Moose,517,65.49,63,-,-,-,,,,,,,,0,0,0,1,0,0,,0,0,0,0,0,0
+84,Birsingpur,Vandana,1,WRTS-2,MPPTCL,Vandana Vidyut,215,Twin ACSR Moose,517,119.325,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+85,CGPL,Chorania,1,WRTS-2,CGPL,GETCO,314,Triple ACSR Snowbird,626,211.322,63,Yes,63,-,,,,,,,,0,0,1,0,0,0,,0,0,0,1,0,0
+86,CGPL,Mansar,1,WRTS-2,CGPL,GETCO,224,Triple ACSR Snowbird,626,150.752,63,Yes,-,-,,,,,,,,0,0,1,0,0,0,,0,0,0,0,0,0
+87,CGPL,Jetpur,1,WRTS-2,CGPL,GETCO,334,Triple ACSR Snowbird,626,224.782,63,Yes,63,-,,,,,,,,0,0,1,0,0,0,,0,0,0,1,0,0
+88,CGPL,Jetpur,2,WRTS-2,CGPL,GETCO,334,Triple ACSR Snowbird,626,224.782,63,Yes,63,-,,,,,,,,0,0,1,0,0,0,,0,0,0,1,0,0
+89,CGPL,Bachau,1,WRTS-2,CGPL,WRTS-2,100,Triple ACSR Snowbird,626,67.3,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+90,CGPL,Bachau,2,WRTS-2,CGPL,WRTS-2,100,Triple ACSR Snowbird,626,67.3,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+91,Chakan,Pune-PG,1,WRTS-1,MSETCL,WRTS-1,18,Twin ACSR Moose,517,9.99,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+92,Chandrapur,Bhadrawati,1,WRTS-1,MSETCL,WRTS-1,20,Twin ACSR Moose,517,11.1,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+93,Chandrapur,Bhadrawati,2,WRTS-1,MSETCL,WRTS-1,20,Twin ACSR Moose,517,11.1,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+94,Chandrapur,Bhadrawati,3,WRTS-1,MSETCL,WRTS-1,22,Twin ACSR Moose,517,12.21,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+95,Chandrapur,Bhadrawati,4,WRTS-1,MSETCL,WRTS-1,22,Twin ACSR Moose,517,12.21,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+96,Chandrapur,Khaparkheda,1,MSETCL,MSETCL,MSETCL,156,Twin ACSR Moose,517,86.58,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+97,Chandrapur,Chandrapur-II,1,MSETCL,MSETCL,MSETCL,1,Twin ACSR Moose,517,0.555,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+98,Chandrapur,Chandrapur-II,2,MSETCL,MSETCL,MSETCL,1,Twin ACSR Moose,517,0.555,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+99,Chandrapur,Parli-M,3,MSETCL,MSETCL,MSETCL,371,Twin ACSR Moose,517,205.905,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+100,Chandrapur-II,Dhariwal,1,MSETCL,MSETCL,Dhariwal Infra,8,Twin ACSR Moose,517,4.44,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+101,Chandrapur-II,Dhariwal,2,MSETCL,MSETCL,Dhariwal Infra,8,Twin ACSR Moose,517,4.44,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+102,Chandrapur-II,Nanded,1,MSETCL,MSETCL,MSETCL,257,Twin ACSR Moose,,,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+103,Chhegaon,Julwania,1,MPPTCL,MPPTCL,MPPTCL,114,Twin ACSR Moose,517,63.27,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+104,Chorania,Kosamba,1,GETCO,GETCO,GETCO,230,Twin ACSR Moose,517,127.65,50,-,63,-,,,,,,,,0,1,0,0,0,0,,0,0,0,1,0,0
+105,Chorania,Kosamba,2,GETCO,GETCO,GETCO,230,Twin ACSR Moose,517,127.65,50,-,63,-,,,,,,,,0,1,0,0,0,0,,0,0,0,1,0,0
+106,Damoh,Birsingpur,1,WRTS-2,WRTS-2,MPPTCL,227,Twin ACSR Moose,517,125.985,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+107,Damoh,Birsingpur,2,WRTS-2,WRTS-2,MPPTCL,227,Twin ACSR Moose,517,125.985,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+108,Damoh,Katni,1,MPPTCL,WRTS-2,MPPTCL,118,Twin ACSR Moose,517,65.49,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+109,DB-Power,Raigarh-PS(Kotra),1,DB-Power,DB-Power,WRTS-1,18,Twin ACSR Moose,517,9.99,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+110,DB-Power,Raigarh-PS(Kotra),2,DB-Power,DB-Power,WRTS-1,18,Twin ACSR Moose,517,9.99,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+111,Dehgam,Gandhar,1,WRTS-2,WRTS-2,NTPC,157,Twin ACSR Moose,517,87.135,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+112,Dehgam,Gandhar,2,WRTS-2,WRTS-2,NTPC,157,Twin ACSR Moose,517,87.135,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+113,Dehgam,Pirana-PG,1,WRTS-2,WRTS-2,WRTS-2,56,Twin ACSR Moose,517,31.08,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+114,Dehgam,Pirana-PG,2,WRTS-2,WRTS-2,WRTS-2,56,Twin ACSR Moose,517,31.08,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+115,Dehgam,Sami,1,ATIL,WRTS-2,ATIL,152,Twin ACSR Moose,517,84.36,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+116,Dehgam,Sami,2,ATIL,WRTS-2,ATIL,152,Twin ACSR Moose,517,84.36,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+117,Dehgam,Ranchodpura,1,GETCO,WRTS-2,GETCO,62,Twin ACSR Moose,517,34.41,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+118,Dehgam,Ranchodpura,2,GETCO,WRTS-2,GETCO,62,Twin ACSR Moose,517,34.41,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+119,Dehgam,Wanakbori,1,WRTS-2,WRTS-2,GETCO,68,Twin ACSR Moose,517,37.74,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+120,Dharamjaygarh,Balco,1,BALCO,WRTS-1,BALCO,23.2,Twin ACSR Moose,517,12.876,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+121,Dharamjaygarh,Balco,2,BALCO,WRTS-2,BALCO,23.2,Twin ACSR Moose,517,12.876,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+122,Dhariwal,Parli-PG,1,WRTS-1,Dhariwal Infra,WRTS-1,390,Twin ACSR Moose,517,216.45,-,-,63,-,,,,,,,,0,0,0,0,0,0,,0,0,0,1,0,0
+123,Dhule-BDTCL,Dhule-MS,1,BDTCL,BDTCL,MSETCL,18,Twin ACSR Moose,517,9.99,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+124,Dhule-BDTCL,Dhule-MS,2,BDTCL,BDTCL,MSETCL,18,Twin ACSR Moose,517,9.99,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+125,Dhule-MS,Bableshwar,1,MSETCL,MSETCL,MSETCL,170,Twin ACSR Moose,517,94.35,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+126,Dhule-MS,Bableshwar,2,MSETCL,MSETCL,MSETCL,170,Twin ACSR Moose,517,94.35,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+127,Ektuni (Aurangabad(3)),Bableshwar,1,MSETCL,MSETCL,MSETCL,127,Quad ACSR Moose,681,92.964,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+128,Ektuni (Aurangabad(3)),Bableshwar,2,MSETCL,MSETCL,MSETCL,127,Quad ACSR Moose,681,92.964,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+129,Gandhar,Navsari,1,WRTS-2,NTPC,WRTS-2,106,Twin ACSR Moose,517,58.83,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+130,Gandhar,Kosamba,1,WRTS-2,NTPC,GETCO,93,Twin ACSR Moose,517,51.615,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+131,Gandhar,Hazira,1,EPTCL,NTPC,HAZIRA-IPP,97,Twin ACSR Moose,517,53.835,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+132,Gandhar,Hazira,2,EPTCL,NTPC,HAZIRA-IPP,97,Twin ACSR Moose,517,53.835,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+133,Gandhar,GPEC,1,GETCO,NTPC,GPEC,13,Twin ACSR Moose,517,7.215,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+134,Gandhar,Sugen,1,WRTS-2,NTPC,TPL,64,Twin ACSR Moose,517,35.52,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+135,GPEC,Kasor,1,GPEC,GPEC,GETCO,98,Twin ACSR Moose,517,54.39,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+136,Hadala,Varsana,1,GETCO,GETCO,GETCO,159,Twin ACSR Moose,517,88.245,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+137,Hadala,Vadinar,1,GETCO,GETCO,ESSAR,113,Twin ACSR Moose,517,62.715,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+138,Hadala,Vadinar,2,GETCO,GETCO,ESSAR,113,Twin ACSR Moose,517,62.715,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+139,Hadala,Chorania,1,GETCO,GETCO,GETCO,166,Twin ACSR Moose,517,92.13,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+140,IEPL,Warora,1,WRTS-1,IEPL,MEGPTL,150,Twin ACSR Moose,517,83.25,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+141,IEPL,Koradi-II,2,WRTS-1,IEPL,MSETCL,94,Twin ACSR Moose,517,52.17,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+142,Indira Sagar,Indore-MP,1,MPPTCL,MPPTCL,MPPTCL,79,Quad ACSR Moose,681,57.828,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+143,Indira Sagar,Indore-MP,2,MPPTCL,MPPTCL,MPPTCL,80,Quad ACSR Moose,681,58.56,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+144,Indira Sagar,Nagda,1,MPPTCL,MPPTCL,MPPTCL,188,Twin ACSR Moose,517,104.34,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+145,Indore-MP,Indore-PG,1,WRTS-2,MPPTCL,WRTS-2,50,Twin ACSR Moose,517,27.75,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+146,Indore-MP,Indore-PG,2,WRTS-2,MPPTCL,WRTS-2,50,Twin ACSR Moose,517,27.75,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+147,Indore-MP,Nagda,1,MPPTCL,MPPTCL,MPPTCL,108,Twin ACSR Moose,517,59.94,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+148,Indore-MP,Asoj,1,GETCO,MPPTCL,GETCO,289,Twin ACSR Moose,517,160.395,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+149,Indore-MP,Asoj,2,GETCO,MPPTCL,GETCO,273,Twin ACSR Moose,517,151.515,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+150,Indore-PG,Pithampur,1,MPPTCL,MPPTCL,MPPTCL,150,Twin ACSR Moose,517,83.25,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+151,Indore-PG,Pithampur,2,MPPTCL,MPPTCL,MPPTCL,150,Twin ACSR Moose,517,83.25,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+152,Itarsi,Indore-MP,1,WRTS-2,WRTS-2,MPPTCL,207,Twin ACSR Moose,517,114.885,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+153,Itarsi,Indore-MP,2,WRTS-2,WRTS-2,MPPTCL,214,Twin ACSR Moose,517,118.77,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+154,Itarsi,Khandwa,1,WRTS-2,WRTS-2,WRTS-2,197,Twin ACSR Moose,517,109.335,50,Yes,-,-,,,,,,,,1,0,0,0,0,0,,0,0,0,0,0,0
+155,Itarsi,Khandwa,2,WRTS-2,WRTS-2,WRTS-2,197,Twin ACSR Moose,517,109.335,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+156,Jabalpur,Itarsi,1,WRTS-2,WRTS-2,WRTS-2,232,Twin ACSR Moose,517,128.76,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+157,Jabalpur,Itarsi,2,WRTS-2,WRTS-2,WRTS-2,232,Twin ACSR Moose,517,128.76,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+158,Jabalpur,Itarsi,3,WRTS-2,WRTS-2,WRTS-2,234,Twin ACSR Moose,517,129.87,50,Yes,50,-,,,,,,,,1,0,0,0,0,0,,0,1,0,0,0,0
+159,Jabalpur,Itarsi,4,WRTS-2,WRTS-2,WRTS-2,234,Twin ACSR Moose,517,129.87,50,Yes,50,-,,,,,,,,1,0,0,0,0,0,,0,1,0,0,0,0
+160,Jabalpur,Sasan,1,WRTS-2,WRTS-2,SPL,340,Twin ACSR Moose,517,188.7,63,-,50,-,,,,,,,,0,0,0,1,0,0,,0,1,0,0,0,0
+161,Jabalpur,Jabalpur (PS),1,WRTS-2,WRTS-2,WRTS-2,16,Quad ACSR Moose,681,11.712,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+162,Jabalpur,Jabalpur (PS),2,WRTS-2,WRTS-2,WRTS-2,16,Quad ACSR Moose,681,11.712,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+163,Jabalpur (PS),MB Power,1,WRTS-2,WRTS-2,MB-Power,246,Triple ACSR Snowbird,626,165.558,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+164,Jabalpur (PS),MB Power,2,WRTS-2,WRTS-2,MB-Power,246,Triple ACSR Snowbird,626,165.558,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+165,Jabalpur (PS),Jhabua Power,1,Jhabua Power Ltd,WRTS-2,Jhabua Power,65,Twin ACSR Moose,517,36.075,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+166,Jabalpur (PS),Jhabua Power,2,Jhabua Power Ltd,WRTS-2,Jhabua Power,65,Twin ACSR Moose,517,36.075,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+167,Jaigad,New koyna ,1,MSETCL,JAIGAD-IPP,MSETCL,55,Twin ACSR Moose,517,30.525,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+168,Jaigad,New koyna ,2,MSETCL,JAIGAD-IPP,MSETCL,55,Twin ACSR Moose,517,30.525,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+169,Jejuri,Koyna stage-IV,1,MSETCL,MSETCL,MSETCL,172,Twin ACSR Moose,517,95.46,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+170,JPL,Raipur,1,JPL,JPL,WRTS-1,258,Twin ACSR Moose,517,143.19,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+171,JPL,Raipur,2,JPL,JPL,WRTS-1,258,Twin ACSR Moose,517,143.19,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+172,JPL,JPL_extn(Tamnar),1,JPL,JPL,JPL,2,Twin ACSR Moose,517,1.11,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+173,JPL_extn(Tamnar),Tamnar-PS,1,JPL,JPL,WRTS-1,10,Twin ACSR Moose,517,5.55,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+174,JPL_extn(Tamnar),Tamnar-PS,2,JPL,JPL,WRTS-1,10,Twin ACSR Moose,517,5.55,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+175,JPL_extn(Tamnar),Tamnar-PS,4,JPL,JPL,WRTS-1,10,Twin ACSR Moose,517,5.55,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+176,JPL_extn(Tamnar),Tamnar-PS,3,JPL,JPL,WRTS-1,10,Twin ACSR Moose,517,5.55,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+177,Kala,Vapi,1,WRTS-2,WRTS-2,WRTS-2,49,Twin ACSR Moose,517,27.195,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+178,Kala,Vapi,2,WRTS-2,WRTS-2,WRTS-2,52,Twin ACSR Moose,517,28.86,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+179,Kalwa,Padghe,1,MSETCL,MSETCL,MSETCL,72,Twin ACSR Moose,517,39.96,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+180,Kalwa,Padghe,2,MSETCL,MSETCL,MSETCL,72,Twin ACSR Moose,517,39.96,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+181,Kalwa,Kharghar,1,MSETCL,MSETCL,MSETCL,28,Twin ACSR Moose,517,15.54,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+182,Kalwa,Pune-PG,1,MSETCL,MSETCL,WRTS-1,104,Twin ACSR Moose,517,57.72,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+183,Karad,Kolhapur,1,MSETCL,MSETCL,MSETCL,105,Twin ACSR Moose,517,58.275,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+184,Karad,Kolhapur,2,MSETCL,MSETCL,MSETCL,105,Twin ACSR Moose,517,58.275,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+185,Karad,Jaigad,1,MSETCL,MSETCL,JAIGAD-IPP,111,Twin ACSR Moose,517,61.605,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+186,Karad,Jaigad,2,MSETCL,MSETCL,JAIGAD-IPP,111,Twin ACSR Moose,517,61.605,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+187,Karad,New Koyna ,1,MSETCL,MSETCL,MSETCL,72,Twin ACSR Moose,517,39.96,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+188,Karad,New Koyna ,2,MSETCL,MSETCL,MSETCL,72,Twin ACSR Moose,517,39.96,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+189,Karad,Solapur-PG,1,WRTMPL/MSETCL,MSETCL,WRTS-1,299,Twin ACSR Moose,517,165.945,50,-,80,Yes,,,,,,,,0,1,0,0,0,0,,0,0,0,0,1,0
+190,Karad,Lonikhand,1,MSETCL,MSETCL,MSETCL,161,Twin ACSR Moose,517,89.355,80,-,-,-,,,,,,,,0,0,0,0,0,1,,0,0,0,0,0,0
+191,Kasor,Chorania,1,GETCO,GETCO,GETCO,103,Twin ACSR Moose,517,57.165,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+192,Khandwa,Dhule-MS,1,WRTS-2,WRTS-2,MSETCL,262,Twin ACSR Moose,517,145.41,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+193,Khandwa,Dhule-MS,2,WRTS-2,WRTS-2,MSETCL,262,Twin ACSR Moose,517,145.41,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+194,Khandwa,Rajgarh,1,WRTS-2,WRTS-2,WRTS-2,221,Twin ACSR Moose,517,122.655,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+195,Khandwa,Rajgarh,2,WRTS-2,WRTS-2,WRTS-2,221,Twin ACSR Moose,517,122.655,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+196,Kharghar,Padghe,1,MSETCL,MSETCL,MSETCL,85,Twin ACSR Moose,517,47.175,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+197,Kolhapur,Kolhapur-PG,1,WRTS-1,MSETCL,WRTS-1,39,Twin ACSR Moose,517,21.645,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+198,Kolhapur,Kolhapur-PG,2,WRTS-1,MSETCL,WRTS-1,39,Twin ACSR Moose,517,21.645,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+199,Kolhapur,Solapur-PG,1,WRTMPL,MSETCL,WRTS-1,220,Twin ACSR Moose,517,122.1,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+200,Kolhapur,Solapur-PG,2,WRTMPL,MSETCL,WRTS-1,220,Twin ACSR Moose,517,122.1,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+201,Kolhapur-PG,Mapusa,1,WRTS-1,WRTS-1,WRTS-1,156,Twin ACSR Moose,517,86.58,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+202,Kolhapur-PG,Mapusa,2,WRTS-1,WRTS-1,WRTS-1,156,Twin ACSR Moose,517,86.58,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+203,Koradi,Bhusawal (Khadka),2,MSETCL,MSETCL,MSETCL,343,Twin ACSR Moose,517,190.365,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+204,Koradi,Satpura,1,WRTS-1,MSETCL,MPPTCL,149,Twin ACSR Moose,517,82.695,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+205,Koradi,Bhilai,1,WRTS-1,MSETCL,CSPTCL,272,Twin ACSR Moose,517,150.96,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+206,Koradi,Khaparkheda,1,MSETCL,MSETCL,MSETCL,10,Twin ACSR Moose,517,5.55,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+207,Koradi,Khaparkheda,2,MSETCL,MSETCL,MSETCL,10,Twin ACSR Moose,517,5.55,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+208,Korba (W),Korba-NTPC,1,WRTS-1,CSPTCL,NTPC,14,Twin ACSR Moose,517,7.77,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+209,Korba (W),Raita,1,CSPTCL,CSPTCL,CSPTCL,144,Twin ACSR Moose,517,79.92,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+210,Korba (W),Korba (W)-Ext,1,CSPTCL,CSPTCL,CSPTCL,1,Twin ACSR Moose,517,0.555,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+211,Korba (W)-Ext,Bhilai,1,CSPTCL,CSPTCL,CSPTCL,220,Twin ACSR Moose,517,122.1,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+212,Korba (W)-Ext,Marwa,1,CSPTCL,CSPTCL,CSPTCL,60,Twin ACSR Moose,517,33.3,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+213,Korba-NTPC,Bhilai,1,WRTS-1,NTPC,CSPTCL,197,Twin ACSR Moose,517,109.335,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+214,Korba-NTPC,Bhilai,2,WRTS-1,NTPC,CSPTCL,192,Twin ACSR Moose,517,106.56,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+215,Korba-NTPC,Raipur,1,WRTS-1,NTPC,WRTS-1,212,Twin ACSR Moose,517,117.66,-,-,63,-,,,,,,,,0,0,0,0,0,0,,0,0,0,1,0,0
+216,Korba-NTPC,Raipur,2,WRTS-1,NTPC,WRTS-1,212,Twin ACSR Moose,517,117.66,-,-,63,-,,,,,,,,0,0,0,0,0,0,,0,0,0,1,0,0
+217,Korba-NTPC,Sipat,1,WRTS-1,NTPC,NTPC,100,Twin ACSR Moose,517,55.5,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+218,Korba-NTPC,Essar_Mahan,1,WRTS-1,NTPC,ESSAR,218,Twin ACSR Moose,517,120.99,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+219,Korba-NTPC,Vindhyachal,2,WRTS-1,NTPC,NTPC,289,Twin ACSR Moose,517,160.395,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+220,Korba-NTPC,Bhatapara,1,WRTS-1,NTPC,WRTS-1,124,Twin ACSR Moose,517,68.82,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+221,Korba-NTPC,Birsingpur,2,WRTS-2,NTPC,BALCO,260,Twin ACSR Moose,517,144.3,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+222,Korba-NTPC,Vandana,1,WRTS-2,NTPC,Vandana Vidyut,18,Twin ACSR Moose,517,9.99,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+223,Koyna stage-IV,Lonikhand,1,MSETCL,MSETCL,MSETCL,183,Twin ACSR Moose,517,101.565,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+224,Koyna stage-IV,New Koyna,1,MSETCL,MSETCL,MSETCL,14,Twin ACSR Moose,517,7.77,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+225,Koyna stage-IV,New Koyna,2,MSETCL,MSETCL,MSETCL,14,Twin ACSR Moose,517,7.77,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+226,KSK Mahanadi,Raipur,1,WRTS-1,KSK,WRTS-1,147,Twin ACSR Moose,517,81.585,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+227,KSK Mahanadi,Raipur,2,WRTS-1,KSK,WRTS-1,150,Twin ACSR Moose,517,83.25,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+228,KSK Mahanadi,RKM,1,WRTS-1,KSK,RKMPPL,104,Twin ACSR Moose,517,57.72,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+229,KWPCL,Raigarh-PS(Kotra),1,KWPCL,KWPCL,WRTS-1,19,Twin ACSR Moose,517,10.545,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+230,KWPCL,Raigarh-PS(Kotra),2,KWPCL,KWPCL,WRTS-1,19,Twin ACSR Moose,517,10.545,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+231,Lara,Raigarh-PS(Kotra),1,WRTS-1,NTPC,WRTS-1,18,Twin ACSR Moose,517,9.99,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+232,Lara,Raigarh-PS(Kotra),2,WRTS-1,NTPC,WRTS-1,18,Twin ACSR Moose,517,9.99,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+233,Lonikhand,Jejuri,1,MSETCL,MSETCL,MSETCL,48,Twin ACSR Moose,517,26.64,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+234,Lonikhand,Chakan,1,MSETCL,MSETCL,MSETCL,37,Twin ACSR Moose,517,20.535,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+235,Lonikhand,Pune-PG,1,MSETCL,MSETCL,WRTS-1,40,Twin ACSR Moose,517,22.2,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+236,Lonikhand-II,Lonikhand,1,MSETCL,MSETCL,MSETCL,1,Twin ACSR Moose,517,0.555,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+237,Lonikhand-II,Lonikhand,2,MSETCL,MSETCL,MSETCL,1,Twin ACSR Moose,517,0.555,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+238,Magarawada,Kala,1,WRTS-2,WRTS-2,WRTS-2,53,Twin ACSR Moose,517,29.415,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+239,Magarawada,Kala,2,WRTS-2,WRTS-2,WRTS-2,53,Twin ACSR Moose,517,29.415,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+240,Magarawada,Navsari,1,WRTS-2,WRTS-2,WRTS-2,126,Twin ACSR Moose,517,69.93,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+241,Magarawada,Navsari,2,WRTS-2,WRTS-2,WRTS-2,126,Twin ACSR Moose,517,69.93,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+242,Malwa,Chhegaon,1,MPPTCL,MPPTCL,MPPTCL,53,Twin ACSR Moose,517,29.415,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+243,Malwa,Pithampur,1,MPPTCL,MPPTCL,MPPTCL,136,Twin ACSR Moose,517,75.48,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+244,Malwa,Pithampur,2,MPPTCL,MPPTCL,MPPTCL,136,Twin ACSR Moose,517,75.48,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+245,Malwa,Julwania,1,MPPTCL,MPPTCL,MPPTCL,170,Twin ACSR Moose,517,94.35,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+246,Mansar,Chorania,1,WRTS-2,GETCO,GETCO,94,Triple ACSR Snowbird,626,63.262,-,-,63,-,,,,,,,,0,0,0,0,0,0,,0,0,0,1,0,0
+247,MCCPL,Bilaspur ,1,WRTS-1,MCCPL,WRTS-1,45,Twin ACSR Moose,517,24.975,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+248,Nagda,Dehgam,1,WRTS-2,MPPTCL,WRTS-2,331,Twin ACSR Moose,517,183.705,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+249,Nagda,Dehgam,2,WRTS-2,MPPTCL,WRTS-2,331,Twin ACSR Moose,517,183.705,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+250,Nagda,Shujalpur,1,WRTS-2,MPPTCL,WRTS-2,202,Twin ACSR Moose,517,112.11,-,-,63,Yes,,,,,,,,0,0,0,0,0,0,,0,0,1,0,0,0
+251,Nagda,Shujalpur,2,WRTS-2,MPPTCL,WRTS-2,152,Twin ACSR Moose,517,84.36,-,-,63,Yes,,,,,,,,0,0,0,0,0,0,,0,0,1,0,0,0
+252,Nandgaonpeth,Koradi,1,MSETCL,MSETCL,MSETCL,140,Twin ACSR Moose,517,77.7,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+253,Navsari,DGEN,1,TPL,WRTS-2,DGEN,105,Twin ACSR Moose,517,58.275,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+254,Navsari,DGEN,2,TPL,WRTS-2,DGEN,105,Twin ACSR Moose,517,58.275,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+255,NSPCL,Raipur,1,NSPCL,NSPCL,WRTS-1,14,Twin ACSR Moose,517,7.77,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+256,NSPCL,Raipur,2,NSPCL,NSPCL,WRTS-1,14,Twin ACSR Moose,517,7.77,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+257,Padghe,Boisar,1,WRTS-2,MSETCL,WRTS-2,101,Twin ACSR Moose,517,56.055,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+258,Padghe,Nagothane,1,MSETCL,MSETCL,MSETCL,116,Twin ACSR Moose,517,64.38,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+259,Padghe,Nagothane,2,MSETCL,MSETCL,MSETCL,116,Twin ACSR Moose,517,64.38,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+260,Padghe,Pune-PG,1,MSETCL,MSETCL,WRTS-1,96,Twin ACSR Moose,517,53.28,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+261,Parli-M,Lonikhand-II,1,MSETCL,MSETCL,MSETCL,284,Twin ACSR Moose,517,157.62,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+262,Parli-M,Lonikhand-II,2,MSETCL,MSETCL,MSETCL,284,Twin ACSR Moose,517,157.62,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+263,Parli-M,Sholapur-M,1,MSETCL,MSETCL,MSETCL,182,Twin ACSR Moose,517,101.01,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+264,Parli-M,Chandrapur-II,1,MSETCL,MSETCL,MSETCL,357,Twin ACSR Moose,517,198.135,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+265,Parli-M,Nanded,1,MSETCL,MSETCL,MSETCL,163,Twin ACSR Moose,517,90.465,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+266,Parli-M,Parli-PG,1,WRTS-1,MSETCL,WRTS-1,5,Twin ACSR Moose,517,2.775,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+267,Parli-M,Parli-PG,2,WRTS-1,MSETCL,WRTS-1,5,Twin ACSR Moose,517,2.775,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+268,Parli-PG,Pune-PG(Shikrapur),1,WRTMPL/WRTS-1,WRTS-1,WRTS-1,272,Twin ACSR Moose,517,150.96,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+269,Parli-PG,Pune-PG(Shikrapur),2,WRTMPL/WRTS-1,WRTS-1,WRTS-1,272,Twin ACSR Moose,517,150.96,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+270,Parli-PG,Solapur-PG,1,WRTMPL/WRTS-1,WRTS-1,WRTS-1,65,Twin ACSR Moose,517,36.075,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+271,Parli-PG,Solapur-PG,2,WRTMPL/WRTS-1,WRTS-1,WRTS-1,65,Twin ACSR Moose,517,36.075,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+272,Pathadi,Bilaspur ,1,LANCO,LANCO,WRTS-1,31,Twin ACSR Moose,517,17.205,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+273,Pathadi,Bilaspur ,2,LANCO,LANCO,WRTS-1,31,Twin ACSR Moose,517,17.205,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+274,Pirana-T,Pirana-PG,1,TPL,TPL,WRTS-2,6,Twin ACSR Moose,517,3.33,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+275,Pirana-T,Pirana-PG,2,TPL,TPL,WRTS-2,6,Twin ACSR Moose,517,3.33,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+276,Pune-PG(Shikrapur),Pune-PG,1,WRTMPL/WRTS-1,WRTS-1,WRTS-1,64,Twin ACSR Moose,517,35.52,-,-,50,Yes,,,,,,,,0,0,0,0,0,0,,1,0,0,0,0,0
+277,Pune-PG(Shikrapur),Pune-PG,2,WRTMPL/WRTS-1,WRTS-1,WRTS-1,64,Twin ACSR Moose,517,35.52,-,-,50,Yes,,,,,,,,0,0,0,0,0,0,,1,0,0,0,0,0
+278,Pune-PG(Shikrapur),Pune-PG,3,WRTS-1,WRTS-1,WRTS-1,64,Twin ACSR Moose,517,35.52,-,-,50,Yes,,,,,,,,0,0,0,0,0,0,,1,0,0,0,0,0
+279,Pune-PG(Shikrapur),Pune-PG,4,WRTS-1,WRTS-1,WRTS-1,64,Twin ACSR Moose,517,35.52,-,-,50,Yes,,,,,,,,0,0,0,0,0,0,,1,0,0,0,0,0
+280,Raigarh,India Bharath,1,WRTS-1/ERTS-2,WRTS-1,ERTS-2,110,Twin ACSR Moose,517,61.05,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+281,Raigarh,Jharsuguda,2,WRTS-1/ERTS-2,WRTS-1,ERTS-2,125,Twin ACSR Moose,517,69.375,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+282,Raigarh,Rourkela,1,WRTS-1/ERTS-2,WRTS-1,ERTS-2,130,Twin ACSR Moose,517,72.15,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+283,Raigarh,Sterlite,2,WRTS-1/ERTS-2,WRTS-1,ERTS-2,130,Twin ACSR Moose,517,72.15,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+284,Raigarh,Raipur,1,WRTS-1,WRTS-1,WRTS-1,217,Twin ACSR Moose,517,120.435,-,-,63,-,,,,,,,,0,0,0,0,0,0,,0,0,0,1,0,0
+285,Raigarh,Raipur,2,WRTS-1,WRTS-1,WRTS-1,217,Twin ACSR Moose,517,120.435,-,-,63,-,,,,,,,,0,0,0,0,0,0,,0,0,0,1,0,0
+286,Raigarh,Raigarh-PS(Kotra),1,WRTS-1,WRTS-1,WRTS-1,7,Twin ACSR Moose,517,3.885,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+287,Raigarh,Raigarh-PS(Kotra),2,WRTS-1,WRTS-1,WRTS-1,7,Twin ACSR Moose,517,3.885,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+288,Raigarh,KSK Mahanadi,1,WRTS-1,WRTS-1,KSK,119,Twin ACSR Moose,517,66.045,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+289,Raipur,Wardha,1,WRTS-1,WRTS-1,WRTS-1,371,Quad ACSR Moose,681,271.572,63,-,63,-,,,,,,,,0,0,0,1,0,0,,0,0,0,1,0,0
+290,Raipur,Wardha,2,WRTS-1,WRTS-1,WRTS-1,371,Quad ACSR Moose,681,271.572,63,-,63,-,,,,,,,,0,0,0,1,0,0,,0,0,0,1,0,0
+291,Raipur,Raipur-PS(Durg),1,WRTS-1,WRTS-1,WRTS-1,22,Twin ACSR Moose,517,12.21,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+292,Raipur,Raipur-PS(Durg),2,WRTS-1,WRTS-1,WRTS-1,22,Twin ACSR Moose,517,12.21,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+293,Raipur-PS(Durg),GMR-CG,1,GMR,WRTS-1,GMR-CG,65,Twin ACSR Moose,517,36.075,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+294,Raipur-PS(Durg),GMR-CG,2,GMR,WRTS-1,GMR-CG,65,Twin ACSR Moose,517,36.075,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+295,Raita,Marwa,1,CSPTCL,CSPTCL,CSPTCL,141,Twin ACSR Moose,517,78.255,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+296,Raita,Marwa,2,CSPTCL,CSPTCL,CSPTCL,141,Twin ACSR Moose,517,78.255,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+297,Rajgarh,Nagda,1,WRTS-2,WRTS-2,MPPTCL,104,Twin ACSR Moose,517,57.72,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+298,Rajgarh,Nagda,2,WRTS-2,WRTS-2,MPPTCL,104,Twin ACSR Moose,517,57.72,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+299,Rajgarh,Kasor,1,WRTGPL,WRTS-2,GETCO,243,Twin ACSR Moose,517,134.865,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+300,Rajgarh,Kasor,2,WRTGPL,WRTS-2,GETCO,243,Twin ACSR Moose,517,134.865,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+301,Ranchodpura,Zerda(Kansari),1,WRTGPL,GETCO,GETCO,140,Twin ACSR Moose,517,77.7,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+302,Ranchodpura,Zerda(Kansari),2,WRTGPL,GETCO,GETCO,140,Twin ACSR Moose,517,77.7,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+303,Ranchodpura,Chorania,1,WRTGPL,GETCO,GETCO,103,Twin ACSR Moose,517,57.165,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+304,Ranchodpura,Chorania,2,WRTGPL,GETCO,GETCO,103,Twin ACSR Moose,517,57.165,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+305,RGPPL,New Koyna ,1,MSETCL,RGPPL,MSETCL,60,Twin ACSR Moose,517,33.3,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+306,RGPPL,New Koyna ,2,MSETCL,RGPPL,MSETCL,60,Twin ACSR Moose,517,33.3,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+307,RGPPL,Nagothane,1,MSETCL,RGPPL,MSETCL,136,Twin ACSR Moose,517,75.48,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+308,RGPPL,Nagothane,2,MSETCL,RGPPL,MSETCL,136,Twin ACSR Moose,517,75.48,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+309,RKM,Raigarh,1,WRTS-1,RKMPPL,WRTS-1,6,Twin ACSR Moose,517,3.33,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+310,Satna,Bina-PG,1,WRTS-2,WRTS-2,WRTS-2,276,Twin ACSR Moose,517,153.18,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+311,Satna,Bina-PG,2,WRTS-2,WRTS-2,WRTS-2,276,Twin ACSR Moose,517,153.18,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+312,Satna,Bina-NTS,3,WRTS-2,WRTS-2,NHPTL,272,Twin ACSR Moose,517,150.96,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+313,Satna,Bina-PG,4,WRTS-2,WRTS-2,WRTS-2,273,Twin ACSR Moose,517,151.515,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+314,Satna,JP-Nigrie,1,Jaypee,WRTS-2,Jaypee,161,Twin ACSR Moose,517,89.355,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+315,Satna,JP-Nigrie,2,Jaypee,WRTS-2,Jaypee,161,Twin ACSR Moose,517,89.355,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+316,Satpura,Indira sagar,1,MPPTCL,MPPTCL,MPPTCL,189,Twin ACSR Moose,517,104.895,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+317,Satpura,Itarsi,1,WRTS-2,MPPTCL,WRTS-2,79,Twin ACSR Moose,517,43.845,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+318,Satpura,Astha,1,MPPTCL,MPPTCL,MPPTCL,240,Twin ACSR Moose,517,133.2,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+319,Satpura,Astha,2,MPPTCL,MPPTCL,MPPTCL,240,Twin ACSR Moose,517,133.2,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+320,Seoni,Satpura,1,WRTS-1,WRTS-1,MPPTCL,156,Twin ACSR Moose,517,86.58,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+321,Seoni,Khandwa,1,WRTS-1,WRTS-1,WRTS-2,352,Quad AAAC Moose,643,243.936,80,-,80,Yes,,,,,,,,0,0,0,0,0,1,,0,0,0,0,1,0
+322,Seoni,Khandwa,2,WRTS-1,WRTS-1,WRTS-2,352,Quad AAAC Moose,643,243.936,80,-,80,Yes,,,,,,,,0,0,0,0,0,1,,0,0,0,0,1,0
+323,Sholapur-M,Solapur-PG,1,MSETCL,MSETCL,WRTS-1,178,Twin ACSR Moose,517,98.79,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+324,Shujalpur,RAPP,1,RTCL,WRTS-2,NPCIL,201,Twin ACSR Moose,517,111.555,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+325,Shujalpur,RAPP,2,RTCL,WRTS-2,NPCIL,201,Twin ACSR Moose,517,111.555,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+326,Sipat,Raipur,1,WRTS-1,NTPC,WRTS-1,149,Twin ACSR Moose,517,82.695,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+327,Sipat,Raipur,2,WRTS-1,NTPC,WRTS-1,149,Twin ACSR Moose,517,82.695,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+328,Sipat,Raipur,3,WRTS-1,NTPC,WRTS-1,149,Twin ACSR Moose,517,82.695,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+329,Sipat,Ranchi,1,WRTS-1/ERTS-1,NTPC,ERTS-1,405,Twin ACSR Moose,517,224.775,80,-,-,-,,,,,,,,0,0,0,0,0,1,,0,0,0,0,0,0
+330,Sipat,Ranchi,2,WRTS-1/ERTS-1,NTPC,ERTS-1,405,Twin ACSR Moose,517,224.775,80,-,-,-,,,,,,,,0,0,0,0,0,1,,0,0,0,0,0,0
+331,SKS,Raigarh-PS(Kotra),1,WRTS-1,SKS,WRTS-1,28,Twin ACSR Moose,517,15.54,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+332,SKS,Raigarh-PS(Kotra),2,WRTS-1,SKS,WRTS-1,28,Twin ACSR Moose,517,15.54,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+333,Soja,Wanakbori,1,GETCO,GETCO,GETCO,95,Twin ACSR Moose,517,52.725,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+334,Soja,Dehgam,1,WRTS-2,GETCO,WRTS-2,41,Twin ACSR Moose,517,22.755,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+335,Soja,Zerda(Kansari),1,GETCO,GETCO,GETCO,135,Twin ACSR Moose,517,74.925,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+336,Solapur-PG,Solapur-NTPC,1,WRTS-1,NTPC,WRTS-1,11,Twin ACSR Moose,517,6.105,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+337,Solapur-PG,Solapur-NTPC,2,WRTS-1,NTPC,WRTS-1,11,Twin ACSR Moose,517,6.105,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+338,SSP,Dhule-MS,1,MSETCL,SSNNL,MSETCL,236,Twin ACSR Moose,517,130.98,-,-,50,Yes,,,,,,,,0,0,0,0,0,0,,1,0,0,0,0,0
+339,SSP,Dhule-MS,2,MSETCL,SSNNL,MSETCL,236,Twin ACSR Moose,517,130.98,-,-,50,Yes,,,,,,,,0,0,0,0,0,0,,1,0,0,0,0,0
+340,SSP,Asoj,1,GETCO,SSNNL,GETCO,83,Twin ACSR Moose,517,46.065,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+341,SSP,Rajgarh,1,MPPTCL,SSNNL,MPPTCL,178,Twin ACSR Moose,517,98.79,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+342,SSP,Rajgarh,2,MPPTCL,SSNNL,MPPTCL,178,Twin ACSR Moose,517,98.79,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+343,SSP,Kasor,1,GETCO,SSNNL,GETCO,146,Twin ACSR Moose,517,81.03,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+344,Sugen,Uno-Sugen,1,TPL,TPL,TPL,3,Twin ACSR Moose,517,1.665,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+345,Sugen,Pirana-T,1,TPL,TPL,TPL,212,Twin ACSR Moose,517,117.66,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+346,Taptithanda,Deepnagar,1,MSETCL,MSETCL,MSETCL,203,Twin ACSR Moose,517,112.665,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+347,Taptithanda,Ektuni (Aurangabad(3)),1,MSETCL,MSETCL,MSETCL,5.36,Twin ACSR Moose,517,2.9748,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+348,Tarapur-3&4,Padghe,1,WRTS-1,NPCIL,MSETCL,91,Twin ACSR Moose,517,50.505,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+349,Tarapur-3&4,Padghe,2,WRTS-1,NPCIL,MSETCL,91,Twin ACSR Moose,517,50.505,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+350,Tarapur-3&4,Boisar,1,WRTS-2,NPCIL,WRTS-2,21,Twin ACSR Moose,517,11.655,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+351,Tarapur-3&4,Boisar,2,WRTS-2,NPCIL,WRTS-2,21,Twin ACSR Moose,517,11.655,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+352,Tiroda,Warora,1,MEGPTL,APML,MEGPTL,219,Twin ACSR Moose,517,121.545,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+353,Tiroda,Warora,2,MEGPTL,APML,MEGPTL,219,Twin ACSR Moose,517,121.545,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+354,TRN,Tamnar-PS,1,WRTS-1,TRN,WRTS-1,15,Twin ACSR Moose,517,8.325,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+355,TRN,Tamnar-PS,2,WRTS-1,TRN,WRTS-1,15,Twin ACSR Moose,517,8.325,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+356,Ukai,Kosamba,1,GETCO,GETCO,GETCO,81,Twin ACSR Moose,517,44.955,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+357,Ukai,Kosamba,2,GETCO,GETCO,GETCO,68,Twin ACSR Moose,517,37.74,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+358,Ukai,Navsari,1,GETCO,GETCO,WRTS-2,83,Twin ACSR Moose,517,46.065,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+359,Uno-Sugen,Pirana-T,1,TPL,TPL,TPL,209,Twin ACSR Moose,517,115.995,-,-,50,-,,,,,,,,0,0,0,0,0,0,,0,1,0,0,0,0
+360,Vadinar,Bachau,1,WRTS-2,ESSAR,WRTS-2,226,Twin ACSR Moose,517,125.43,-,-,63,-,,,,,,,,0,0,0,0,0,0,,0,0,0,1,0,0
+361,Vadinar,Bachau,2,WRTS-2,ESSAR,WRTS-2,226,Twin ACSR Moose,517,125.43,-,-,63,-,,,,,,,,0,0,0,0,0,0,,0,0,0,1,0,0
+362,Vadodara-PS,Pirana-PG,1,WRTS-2,WRTS-2,WRTS-2,131,Quad ACSR Moose,681,95.892,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+363,Vadodara-PS,Pirana-PG,2,WRTS-2,WRTS-2,WRTS-2,131,Quad ACSR Moose,681,95.892,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+364,Vadodara-PS,Asoj,1,WRTS-2,WRTS-2,GETCO,14,Quad ACSR Moose,681,10.248,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+365,Vadodara-PS,Asoj,2,WRTS-2,WRTS-2,GETCO,14,Quad ACSR Moose,681,10.248,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+366,Vapi,Boisar,1,WRTS-2,WRTS-2,WRTS-2,91,Twin ACSR Moose,517,50.505,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+367,Vapi,Sugen,1,WRTS-2,WRTS-2,TPL,118,Twin ACSR Moose,517,65.49,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+368,Vindhyachal,Jabalpur,1,WRTS-2,NTPC,WRTS-2,360,Twin ACSR Moose,517,199.8,63,-,63,-,,,,,,,,0,0,0,1,0,0,,0,0,0,1,0,0
+369,Vindhyachal,Jabalpur,2,WRTS-2,NTPC,WRTS-2,360,Twin ACSR Moose,517,199.8,63,-,63,-,,,,,,,,0,0,0,1,0,0,,0,0,0,1,0,0
+370,Vindhyachal,Jabalpur,4,WRTS-2,NTPC,WRTS-2,389,Twin ACSR Moose,517,215.895,63,-,63,-,,,,,,,,0,0,0,1,0,0,,0,0,0,1,0,0
+371,Vindhyachal,Satna,1,WRTS-2,NTPC,WRTS-2,267,Twin ACSR Moose,517,148.185,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+372,Vindhyachal,Satna,2,WRTS-2,NTPC,WRTS-2,267,Twin ACSR Moose,517,148.185,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+373,Vindhyachal,Satna,3,WRTS-2,NTPC,WRTS-2,258,Twin ACSR Moose,517,143.19,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+374,Vindhyachal,Satna,4,WRTS-2,NTPC,WRTS-2,258,Twin ACSR Moose,517,143.19,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+375,Vindhyachal,Sasan,3,WRTS-2,NTPC,SPL,20,Twin ACSR Moose,517,11.1,63,Yes,-,-,,,,,,,,0,0,1,0,0,0,,0,0,0,0,0,0
+376,Vindhyachal,Essar_Mahan,1,WRTS-2,NTPC,Mahan,41,Twin ACSR Moose,517,22.755,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+377,Vindhyachal-III,Vindhyachal-V,1,NTPC,NTPC,NTPC,4,Quad ACSR Moose,681,2.928,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+378,Vindhyachal-III,Vindhyachal-V,2,NTPC,NTPC,NTPC,4,Quad ACSR Moose,681,2.928,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+379,Vindhyachal-IV,Vindhyachal-V,1,NTPC,NTPC,NTPC,4,Quad ACSR Moose,681,2.928,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+380,Vindhyachal-IV,Vindhyachal-V,2,NTPC,NTPC,NTPC,4,Quad ACSR Moose,681,2.928,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+381,Vindhyachal-IV,Vindhyachal-PS,1,WRTS-2,NTPC,WRTS-2,31,Twin ACSR Moose,517,17.205,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+382,Vindhyachal-IV,Vindhyachal-PS,2,WRTS-2,NTPC,WRTS-2,31,Twin ACSR Moose,517,17.205,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+383,Vindhyachal-PS,Sasan,1,WRTS-2,NTPC,SPL,8,Twin ACSR Moose,517,4.44,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+384,Vindhyachal-PS,Sasan,2,WRTS-2,WRTS-2,SPL,8,Twin ACSR Moose,517,4.44,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+385,Vindhyachal-PS,Rihand,1,WRTS-2/NRTS-1,WRTS-2,NRTS-1,35,Quad Bersimis,692,26.11,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+386,Vindhyachal-PS,Rihand,2,WRTS-2/NRTS-1,WRTS-2,NRTS-1,28,Quad Bersimis,692,20.888,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+387,Wardha,Parli-PG,1,WRTS-1,WRTS-1,WRTS-1,337,Quad ACSR Moose,681,246.684,63,-,63,-,,,,,,,,0,0,0,1,0,0,,0,0,0,1,0,0
+388,Wardha,Parli-PG,2,WRTS-1,WRTS-1,WRTS-1,337,Quad ACSR Moose,681,246.684,63,-,63,-,,,,,,,,0,0,0,1,0,0,,0,0,0,1,0,0
+389,Wardha,Akola,1,WRTS-1,WRTS-1,MSETCL,162,Twin ACSR Moose,517,89.91,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+390,Wardha,Akola,2,WRTS-1,WRTS-1,MSETCL,162,Twin ACSR Moose,517,89.91,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+391,Wardha,Mouda,1,WRTS-1,WRTS-1,NTPC,124,Quad ACSR Moose,681,90.768,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+392,Wardha,Mouda,2,WRTS-1,WRTS-1,NTPC,124,Quad ACSR Moose,681,90.768,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+393,Wardha,Warora,1,WRTS-1,WRTS-1,MEGPTL,76,Twin ACSR Moose,517,42.18,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+394,Wardha,Koradi-II,1,WRTS-1,WRTS-1,IEPL,67,Quad ACSR Moose,681,49.044,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+395,Warora,Chandrapur-II,1,MEGPTL,MEGPTL,MSETCL,45,Twin ACSR Moose,517,24.975,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+396,Warora,Chandrapur-II,2,MEGPTL,MEGPTL,MSETCL,45,Twin ACSR Moose,517,24.975,-,-,-,-,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+397,Zerda(Kansari),Bhinmal,1,WRTS-2/NRTS-1,GETCO,NRTS-1,143,Twin ACSR Moose,517,79.365,50,-,50,-,,,,,,,,0,1,0,0,0,0,,0,1,0,0,0,0
+398,Zerda(Kansari),Kankroli,1,WRTS-2/NRTS-1,GETCO,NRTS-1,234,Twin ACSR Moose,517,129.87,50,-,-,-,,,,,,,,0,1,0,0,0,0,,0,0,0,0,0,0
+399,Zerda(Kansari),Varsana,1,GETCO,GETCO,GETCO,258,Twin ACSR Moose,517,143.19,63,-,-,-,,,,,,,,0,0,0,1,0,0,,0,0,0,0,0,0
+,,,,,,Total,52887.16,,,,5233,Total,5648,,,,,,,,,0,0,0,0,0,0,,0,0,0,0,0,0
+,,,,,,,,,,30087.8118,,,2,,,,,,,,,3,64,7,14,2,5,,9,60,2,24,3,4
+,,,,,,,,,,,,,,,,,,,,,,150,3200,441,882,160,400,,450,3000,126,1512,240,320
+,,,,,,,,,,,,,,,,,,,,,,,,5233,,,,,,,5648,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10881,,,
