@@ -1,4 +1,4 @@
-// 400 kV Lines
+// 765 kV Lines
 
 	// Uniqueness constraints.
 CREATE CONSTRAINT ON (c:Country) ASSERT c.name IS UNIQUE;
@@ -20,9 +20,9 @@ MERGE (er)-[:BELONGS_TO]->(country);
 MERGE (ner:Region { name: 'NER' });
 MERGE (ner)-[:BELONGS_TO]->(country);
 
-	// Load 400 kV Lines.
+	// Load 765 kV Lines.
 LOAD CSV WITH HEADERS 
-FROM 'file:///lines_raw_400_kv.csv' AS line
+FROM 'file:///lines_raw_765_kv.csv' AS line
 WITH DISTINCT line
 WHERE line.`End-1` IS NOT NULL AND
 	  line.`End-2` IS NOT NULL AND
@@ -36,7 +36,7 @@ WHERE line.`End-1` IS NOT NULL AND
 	  line.`No Load MVAR Generated` IS NOT NULL
 MERGE (wr:Region { name: 'WR' })
 
-MERGE (volt:Voltage { name: '400 kV'})
+MERGE (volt:Voltage { name: '765 kV'})
 
 MERGE (ss1_owner:Owner{name: trim(line.`End-1 Owner`)})
 

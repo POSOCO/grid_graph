@@ -1,0 +1,69 @@
+Sl No,End-1,End-2,Id,Line Owner,End-1 Owner,End-2 Owner,Km,Conductor Type,SIL,No Load MVAR Generated,End1 LR MVAR,End1 LR S/W,End2 LR MVAR,End2 LR S/W,End 1 Over Voltage Stage 1,End 1 Over Voltage Stage 2,End 2 Over Voltage Stage 1,End 2 Over Voltage Stage 2,,,,,,,End-1 240 MVAR SLR,End-1 240 MVAR NSLR,End-1 330 MVAR SLR,End-1 330 MVAR NSLR,End-2 240 MVAR SLR,End-2 240 MVAR NSLR,End-2 330 MVAR SLR,End-2 330 MVAR NSLR
+1,Akola(2),Ektuni (Aurangabad(3)),2,MEGPTCL,MEGPTCL,MSETCL,219,Quad Bersimis,2194,515,240,Yes,240,-,110 %-5 Sec,150 %-0.15 Sec,110 %-10 Sec,150 %-0.1 Sec,,X,B,Zpu,Z(ohms),,1,0,0,0,0,1,0,0
+2,Akola(2),Ektuni (Aurangabad(3)),1,MEGPTCL,MEGPTCL,WRTS-1,219,Quad Bersimis,2194,515,240,Yes,240,-,110 %-7 Sec,150 %-0.1  Sec,110 %-8 Sec,150 %-0.1 Sec,Quad Bersimis,0.0000488,0.0235,0.04556968,266.6851604,,1,0,0,0,0,1,0,0
+3,Aurangabad-PG,Wardha,1,WRTS-1,WRTS-1,WRTS-1,348,Hexa Zebra,2470,926,240,-,330,Yes,-,-,-,-,,,,,,,0,1,0,0,0,0,1,0
+4,Aurangabad-PG,Wardha,2,WRTS-1,WRTS-1,WRTS-1,348,Hexa Zebra,2470,926,240,-,330,Yes,-,-,-,-,,,,,,,0,1,0,0,0,0,1,0
+5,Aurangabad-PG,Wardha,3,WRTS-1,WRTS-1,WRTS-1,370,Hexa Zebra,2470,984,240,-,330,Yes,107 % -5 Sec,150 %-0.1 Sec,109 %-5 Sec,150 %-0.1 Sec,Hexa Zebra,0.0000436,0.0266,0.040485772,236.9328599,,0,1,0,0,0,0,1,0
+6,Aurangabad-PG,Wardha,4,WRTS-1,WRTS-1,WRTS-1,370,Hexa Zebra,2470,984,240,-,330,Yes,107 % -6 Sec,150 %-0.1 Sec,109 %-6 Sec,150 %-0.1 Sec,,,,,,,0,1,0,0,0,0,1,0
+7,Aurangabad-PG,Solapur-PG,1,WRTS-1,WRTS-1,WRTS-1,279,Hexa Zebra,2470,742,240,Yes,240,Yes,108 % -7 Sec,150 %-0.1 Sec,109 %-7 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,1,0,0,0
+8,Aurangabad-PG,Solapur-PG,2,WRTS-1,WRTS-1,WRTS-1,279,Hexa Zebra,2470,742,240,Yes,240,Yes,108 % -8 Sec,150 %-0.1 Sec,109 %-8 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,1,0,0,0
+9,Bhopal-BDTCL,Indore-PG,1,BDTCL,BDTCL ,WRTS-2,176,Quad Bersimis,2194,414,240,Yes,240,-,108 % -5 Sec,150 %-0.1 Sec,108 % -5 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,1,0,0
+10,Bilaspur,Seoni,1,WRTS-1,WRTS-1,WRTS-1,333,Quad Bersimis,2194,783,240,Yes,240,-,108 % -7 Sec,150 %-0.1 Sec,108 % -7 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,1,0,0
+11,Bilaspur,Seoni,2,WRTS-1,WRTS-1,WRTS-1,335,Quad Bersimis,2194,787,240,Yes,240,-,110 % -5 Sec,140 %-0.1 Sec,107 % -5 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,1,0,0
+12,Bilaspur,Dharamjaygarh,1,WRTS-1,WRTS-1,WRTS-1,89,Quad Bersimis,2194,209,240,Yes,-,-,108 %-5 Sec,150 %-0.1 Sec,108 %-5 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,0,0,0
+13,Bina-PG,Gwalior,1,WRTS-2,WRTS-2,WRTS-2,235,Quad Bersimis,2194,552,240,-,240,Yes,108 %-7 Sec,150 %-0.1 Sec,108 %-7 Sec,150 %-0.1 Sec,,,,,,,0,1,0,0,1,0,0,0
+14,Bina-PG,Jabalpur-PS,3,JTCL,WRTS-2,WRTS-2,236,Quad Bersimis,2194,555,240,-,240,Yes,109 %-5 Sec,150 %-0.1 Sec,108 %-5 Sec,150%-0.1 Sec,,,,,,,0,1,0,0,1,0,0,0
+15,Bina-PG  ,Gwalior,2,WRTS-2,WRTS-2,WRTS-2,235,Quad Bersimis,2194,552,240,-,240,Yes,108  %-7 Sec,150 %-0.1 Sec,108 %-7 Sec,150 %-0.1 Sec,,,,,,,0,1,0,0,1,0,0,0
+16,Bina-PG  ,Gwalior,3,WRTS-2,WRTS-2,WRTS-2,231,Quad Bersimis,2194,543,240,Yes,240,Yes,108 %-5 Sec,150 %-0.1 Sec,108 %-5 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,1,0,0,0
+17,Bina-PG  ,Indore-PG,1,WRTS-2,WRTS-2,WRTS-2,310,Quad Bersimis,2194,729,240,Yes,240,-,109 %-8 Sec,150 %-0.1 Sec,109 %-8 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,1,0,0
+18,Bina-PG  ,Jabalpur-PS,1,WRTS-2,WRTS-2,WRTS-2,230,Quad Bersimis,2194,541,240,-,240,Yes,109 %-5 Sec,150 %-0.1 Sec,109 %-5 Sec,150 %-0.1 Sec,,,,,,,0,1,0,0,1,0,0,0
+19,Bina-PG   ,Jabalpur-PS,2,WRTS-2,WRTS-2,WRTS-2,230,Quad Bersimis,2194,541,240,-,240,Yes,108 %- 5 Sec,150 %-0.1 Sec,108 %- 5 Sec,150 %-0.1 Sec,,,,,,,0,1,0,0,1,0,0,0
+20,Bina-PG   ,Bina-NHPTL,1,WRTS-2,WRTS-2,NHPTL,0.2,Quad Bersimis,2194,0,-,-,-,-,,,,,,,,,,,0,0,0,0,0,0,0,0
+21,Dharamjaygarh,Ranchi,1,ERTS-1/WRTS-1,WRTS-1,ERTS-1,301,Quad Bersimis,2194,707,330,-,240,Yes,107 % -5 Sec,150 %-0.1 Sec,107 % -5 Sec,150 %-0.1 Sec,,,,,,,0,0,0,1,1,0,0,0
+22,Dharamjaygarh,Ranchi,2,ERTS-1/WRTS-1,WRTS-1,ERTS-1,303,Quad Bersimis,2194,712,330,-,240,Yes,108 %-7 Sec,150 %-0.1 Sec,108 %-7 Sec,150 %-0.1 Sec,,,,,,,0,0,0,1,1,0,0,0
+23,Dharamjaygarh,Raipur-PS(Durg),2,WRTS-1,WRTS-1,WRTS-1,200,Quad Bersimis,2194,470,240,-,-,-,108 %-5 Sec,150%-0.1 Sec,ERLDC,ERLDC,,,,,,,0,1,0,0,0,0,0,0
+24,Dharamjaygarh,Jharsuguda,1,WRTS-2,WRTS-2,ERTS-2,303,Hexa Zebra,2470,806,330,Yes,-,-,108 %-7 Sec,150%-0.1 Sec,ERLDC,ERLDC,,,,,,,0,0,1,0,0,0,0,0
+25,Dharamjaygarh,Jharsuguda,2,WRTS-2,WRTS-2,ERTS-2,303,Hexa Zebra,2470,806,330,Yes,-,-,107 %-5 Sec,150%-0.1 Sec,107%-7 Sec,150 %-0.1 Sec,,,,,,,0,0,1,0,0,0,0,0
+26,Dharamjaygarh,Jabalpur-PS,1,WRTS-1,WRTS-1,WRTS-2,424,Hexa Zebra,2470,1128,330,Yes,240,-,108 %-5 Sec,150%-0.1 Sec,ERLDC,ERLDC,,,,,,,0,0,1,0,0,1,0,0
+27,Dharamjaygarh,Jabalpur-PS,2,WRTS-1,WRTS-1,WRTS-2,424,Hexa Zebra,2470,1128,330,Yes,240,-,108 %-7 Sec,150%-0.1 Sec,ERLDC,ERLDC,,,,,,,0,0,1,0,0,1,0,0
+28,Dharamjaygarh,Jabalpur-PS,3,JTCL,WRTS-1,WRTS-2,379,Hexa Zebra,2470,1008,330,Yes,240,-,107 %-5 Sec,150%-0.1 Sec,108 %- 4 Sec,150 %-0.1 Sec,,,,,,,0,0,1,0,0,1,0,0
+29,Dharamjaygarh,Jabalpur-PS,4,JTCL,WRTS-1,WRTS-2,379,Hexa Zebra,2470,1008,330,Yes,240,-,107 %-7 Sec,150%-0.1 Sec,108 %- 5 Sec,150 %-0.1 Sec,,,,,,,0,0,1,0,0,1,0,0
+30,Dhule-BDTCL,Aurangabad-PG,1,BDTCL,BDTCL ,WRTS-I,192,Quad Bersimis,2194,451,240,Yes,-,-,108 %-5 Sec,150%-0.1 Sec,108 %- 6 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,0,0,0
+31,Gwalior,Agra,1,NRTS-1/WRTS-2,WRTS-2,NRTS-1,129,Quad Bersimis,2194,303,-,-,-,-,108 %-7 Sec,150%-0.1 Sec,108 %- 7 Sec,150 %-0.1 Sec,,,,,,,0,0,0,0,0,0,0,0
+32,Gwalior,Agra,2,NRTS-1/WRTS-2,WRTS-2,NRTS-1,128,Quad Bersimis,2194,301,-,-,-,-,110 %-5 Sec,140 %-0.1 Sec,108 %-5 Sec,150 %-0.1 Sec,,,,,,,0,0,0,0,0,0,0,0
+33,Gwalior,Jaipur,1,NRTS-1/WRTS-2,WRTS-2,NRTS-1,304,Quad Bersimis,2194,714,240,Yes,240,-,108 %-5 Sec,150  %-0.1 Sec,108 %-5 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,1,0,0
+34,Gwalior,Jaipur,2,NRTS-1/WRTS-2,WRTS-2,NRTS-1,311,Quad Bersimis,2194,731,240,Yes,240,-,109 %-7 Sec,150 %-0.1 Sec,109 %-7 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,1,0,0
+35,Jabalpur-PS,Bhopal-BDTCL,1,BDTCL,WRTS-2,BDTCL,260,Quad Bersimis,2194,611,240,Yes,240,-,108 %-5 Sec,150 %-0.1 Sec,NRLDC,NRLDC,,,,,,,1,0,0,0,0,1,0,0
+36,Kholpaur-PG*,Kudgi*,1,WRTS-1,WRTS-1,SRTS-1,191,Hexa Zebra,2470,508,-,-,-,-,107 %-4 Sec,150 %-0.1 Sec,NRLDC,NRLDC,,,,,,,0,0,0,0,0,0,0,0
+37,Kholpaur-PG*,Kudgi*,2,WRTS-1,WRTS-1,SRTS-1,191,Hexa Zebra,2470,508,-,-,-,-,108 %-5 Sec,150 %-0.1 Sec,110 %-5 Sec,150 %-0.1 Sec,,,,,,,0,0,0,0,0,0,0,0
+38,Koradi(III),Akola(2),1,MEGPTCL,MEGPTCL,MEGPTCL,222,Quad Bersimis,2194,522,240,Yes,240,-,110 %-5 Sec,150 %-0.1 Sec,110 %-5 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,1,0,0
+39,Koradi(III),Akola(2),2,MEGPTCL,MEGPTCL,MEGPTCL,222,Quad Bersimis,2194,522,240,Yes,240,-,110 %-7 Sec,150 %-0.1 Sec,110 %-7 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,1,0,0
+40,Pune-PG(Shikrapur),Solapur-PG,1,WRTS-1,WRTS-1,WRTS-1,270,Quad Bersimis,2194,635,240,Yes,240,Yes,110 %-7 Sec,140 %-0.15 Sec,110 %-7 Sec,140 %-0.15 Sec,,,,,,,1,0,0,0,1,0,0,0
+41,Raigarh-PS(Kotra),Raipur-PS(Durg),1,WRTS-1,WRTS-1,WRTS-1,235,Hexa Zebra,2470,625,240,Yes,240,-,110 %-5 Sec,140 %-0.15 Sec,110 %-5 Sec,140 %-0.15 Sec,,,,,,,1,0,0,0,0,1,0,0
+42,Raigarh-PS(Kotra),Raipur-PS(Durg),2,WRTS-1,WRTS-1,WRTS-1,235,Hexa Zebra,2470,625,240,Yes,240,-,107 % -5 Sec,150 %-0.1 Sec,107 % -5 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,1,0,0
+43,Raigarh-PS(Kotra),Tamnar,1,WRTS-1,WRTS-1,WRTS-1,48,Hexa Zebra,2470,128,-,-,-,-,108 %-5 Sec,150 %-0.1 Sec,108 %-5 Sec,150 %-0.1 Sec,,,,,,,0,0,0,0,0,0,0,0
+44,Raigarh-PS(Kotra),Tamnar,2,WRTS-1,WRTS-1,WRTS-1,48,Hexa Zebra,2470,128,-,-,-,-,107 %-7 Sec,150 %-0.1 Sec,107 %-7 Sec,150 %-0.1 Sec,,,,,,,0,0,0,0,0,0,0,0
+45,Raigarh-PS(Kotra),Champa ,1,WRTS-1,WRTS-1,WRTS-1,96,Quad Bersimis,2194,226,-,-,-,-,108 %-5Sec,150 %-0.1 Sec,109 %-5Sec,150 %-0.1 Sec,,,,,,,0,0,0,0,0,0,0,0
+46,Raipur-PS(Durg),Champa ,1,WRTS-1,WRTS-1,WRTS-1,153,Quad Bersimis,2194,360,240,Yes,-,-,109 %-6 Sec,150 %-0.1 Sec,109 %-7 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,0,0,0
+47,Sasan,Satna,1,WRTS-2,SPL,WRTS-2,246,Quad Bersimis,2194,578,240,Yes,240,-,108 %-5Sec,150 %-0.1 Sec,108 %-5 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,1,0,0
+48,Sasan,Satna,2,WRTS-2,SPL,WRTS-2,243,Quad Bersimis,2194,571,240,Yes,240,-,109 %-8 Sec,150 %-0.1 Sec,108 %-5 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,1,0,0
+49,Sasan,Vindhyachal-PS,1,WRTS-2,WRTS-2,WRTS-2,6,Quad Bersimis,2194,14,-,-,-,-,110 %-5 Sec,150 %-0.1 Sec,109 %-5 Sec,150 %-0.1 Sec,,,,,,,0,0,0,0,0,0,0,0
+50,Satna,Gwalior,1,WRTS-2,WRTS-2,WRTS-2,337,Quad Bersimis,2194,792,240,Yes,240,-,110 %-7 Sec,150 %-0.1 Sec,108 %-7 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,1,0,0
+51,Satna,Gwalior,2,WRTS-2,WRTS-2,WRTS-2,337,Quad Bersimis,2194,792,240,Yes,240,-,107 %-5 Sec,150 %-0.1 Sec,110 %-5 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,1,0,0
+52,Satna,Bina-PG   ,1,WRTS-2,WRTS-2,WRTS-2,274,Quad Bersimis,2194,644,240,Yes,240,-,109 %-5 Sec,150 %-0.1 Sec,109 %-5 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,1,0,0
+53,Satna,Bina-PG   ,2,WRTS-2,WRTS-2,WRTS-2,276,Quad Bersimis,2194,649,240,Yes,240,-,109 %-6 Sec,150 %-0.1 Sec,109 %-6 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,1,0,0
+54,Satna,Vindhyachal-PS,1,WRTS-2,WRTS-2,WRTS-2,237,Quad Bersimis,2194,557,240,-,240,Yes,108 %-5 Sec,150 %-0.1 Sec,108 %-5 Sec,150 %-0.1 Sec,,,,,,,0,1,0,0,1,0,0,0
+55,Satna,Vindhyachal-PS,2,WRTS-2,WRTS-2,WRTS-2,237,Quad Bersimis,2194,557,240,-,240,Yes,109 %-7 Sec,150 %-0.1 Sec,109 %-7 Sec,150 %-0.1 Sec,,,,,,,0,1,0,0,1,0,0,0
+56,Seoni,Bina-PG  ,1,WRTS-1,WRTS-1,WRTS-2,292,Quad Bersimis,2194,686,240,Yes,240,-,108 % -5 Sec,150 %-0.1 Sec,108 % -5 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,1,0,0
+57,Seoni,Wardha,1,WRTS-1,WRTS-1,WRTS-1,261,Quad Bersimis,2194,613,240,Yes,-,-,109 %- 7 Sec,150 %-0.1 Sec,109 %- 7 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,0,0,0
+58,Seoni,Wardha,2,WRTS-1,WRTS-1,WRTS-1,261,Quad Bersimis,2194,613,240,Yes,-,-,108 %-7 Sec,150 %-0.1 Sec,108 %-7 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,0,0,0
+59,Sipat,Bilaspur,1,WRTS-1,NTPC,WRTS-1,22,Quad Bersimis,2194,52,240,Yes,-,-,109%-5 Sec,150 %-0.1 Sec,109 %-5 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,0,0,0
+60,Sipat,Bilaspur,2,WRTS-1,NTPC,WRTS-1,22,Quad Bersimis,2194,52,240,Yes,-,-,108 %-6 Sec,150 %-0.1 Sec,108 %-6 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,0,0,0,0
+61,Solapur,Raichur,1,SRTS-1,WRTS-1,SRTS-1,208,Quad Bersimis,2194,489,240,Yes,240,Yes,110 %-4 Sec,140 %-0.1 Sec,109 %-5Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,1,0,0,0
+62,Solapur,Raichur,2,SRTCL,WRTS-1,SRTS-1,208,Quad Bersimis,2194,489,240,Yes,240,Yes,110 %-4 Sec,140 %-0.1 Sec,108 %-7Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,1,0,0,0
+63,Tiroda,Koradi(III),1,MEGPTCL,APML,MEGPTCL,136,Quad Bersimis,2194,320,240,Yes,240,Yes,109 %-5 Sec,150 %-0.1 Sec,109 %-5 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,1,0,0,0
+64,Tiroda,Koradi(III),2,MEGPTCL,APML,MEGPTCL,138,Quad Bersimis,2194,324,240,Yes,240,Yes,109 %-7 Sec,150 %-0.1 Sec,109 %-7 Sec,150 %-0.1 Sec,,,,,,,1,0,0,0,1,0,0,0
+65,Vadodora-PS ,Indore-PG,1,WRTS-2,WRTS-2,WRTS-2,293,Quad Bersimis,2194,689,240,-,240,Yes,110 %-7 Sec,140 %-0.15 Sec,110 %-7 Sec,140 %-0.15 Sec,,,,,,,0,1,0,0,1,0,0,0
+66,Vadodora-PS ,Dhule-BDTCL,1,WRTS-2,WRTS-2,BDTCL,268,Quad Bersimis,2194,630,240,-,240,Yes,110 %-5 Sec,140 %-0.15 Sec,110 %-5 Sec,140 %-0.15 Sec,,,,,,,0,1,0,0,1,0,0,0
+67,Wardha,Raipur-PS(Durg),1,WRTS-1,WRTS-1,WRTS-1,370,Hexa Zebra,2470,984,330,-,240,Yes,109 %-6 Sec,150 %-0.1 Sec,109 %-6 Sec,150 %-0.1 Sec,,,,,,,0,0,0,1,1,0,0,0
+68,Wardha,Raipur-PS(Durg),2,WRTS-1,WRTS-1,WRTS-1,370,Hexa Zebra,2470,984,330,-,240,Yes,108 %-5 Sec,150 %-0.1 Sec,110 %-5Sec,140 %-0.1 Sec,,,,,,,0,0,0,1,1,0,0,0
