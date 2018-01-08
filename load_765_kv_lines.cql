@@ -11,6 +11,8 @@ CREATE CONSTRAINT ON (v:Voltage) ASSERT v.name IS UNIQUE;
 CREATE CONSTRAINT ON (n:Bus) ASSERT exists(n.id);
 CREATE CONSTRAINT ON (n:Line) ASSERT exists(n.id);
 CREATE CONSTRAINT ON (n:LineReactor) ASSERT exists(n.id);
+CREATE CONSTRAINT ON (n:LineReactor) ASSERT exists(n.mvar);
+CREATE CONSTRAINT ON (n:LineReactor) ASSERT exists(n.sw);
 
 // Initialize.
 MERGE (country:Country { name: 'INDIA' })
@@ -40,6 +42,7 @@ WHERE line.`End-1` IS NOT NULL AND
 	  line.`Conductor Type` IS NOT NULL AND
 	  line.SIL IS NOT NULL AND
 	  line.`No Load MVAR Generated` IS NOT NULL
+WITH line, toInteger(trim(line.`End1 LR MVAR`)) as end1_lr_mvar, (CASE WHEN toLower(trim(line.`End1 LR S/W`)) = 'yes' THEN 1 ELSE 0 END) as end1_lr_sw, toInteger(trim(line.`End2 LR MVAR`)) as end2_lr_mvar, (CASE WHEN toLower(trim(line.`End2 LR S/W`)) = 'yes' THEN 1 ELSE 0 END) as end2_lr_sw	  
 MERGE (wr:Region { name: 'WR' })
 
 MERGE (volt:Voltage { name: '765 kV'})
@@ -66,6 +69,9 @@ SET lineEl.km = toInteger(line.Km)
 SET lineEl.conductor_type = trim(line.`Conductor Type`)
 SET lineEl.no_load_mvar = trim(line.`No Load MVAR Generated`)
 
+FOREACH (mvar_val IN (case when end1_lr_mvar IS NULL then [] else [end1_lr_mvar] end) |  MERGE (bus1)<-[:CONNECTED_TO]-(:LineReactor {id: 1, mvar: mvar_val, sw: end1_lr_sw})-[:CONNECTED_TO]->(lineEl))
+FOREACH (mvar_val IN (case when end2_lr_mvar IS NULL then [] else [end2_lr_mvar] end) |  MERGE (bus2)<-[:CONNECTED_TO]-(:LineReactor {id: 1, mvar: mvar_val, sw: end2_lr_sw})-[:CONNECTED_TO]->(lineEl))
+
 WITH SPLIT(line.`Line Owner`, '/') AS line_owners_names, lineEl
 UNWIND range(0,size(line_owners_names)-1) AS i
 WITH line_owners_names[i] AS line_owner_name, lineEl
@@ -77,5 +83,6 @@ match (n:Substation) with count(n) as ss_count
 match (b:Bus) with count(b) as bus_count, ss_count
 match (b:Line) with count(b) as line_count, bus_count, ss_count
 match (b:Owner) with count(b) as owner_count, line_count, bus_count, ss_count
-match (b) any(l in labels(b) WHERE l in ['Line','Bus']) return count(b)) as el_count, owner_count, line_count, bus_count, ss_count
+match (b:LineReactor) with count(b) as lr_count, owner_count, line_count, bus_count, ss_count
+match (b) where any(l in labels(b) WHERE l in ['Line','Bus']) return count(b) as el_count, owner_count, line_count, bus_count, lr_count, ss_count
 ;
