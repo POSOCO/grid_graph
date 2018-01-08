@@ -1,0 +1,2 @@
+// display all the 400 kV substations connected to sasan with a max depth of 2 levels (4n-1) 
+match (n:Substation)<-[:LOCATED_IN|CONNECTED_TO*7]->(trgtBus:Bus)-[:LOCATED_IN]->(trgt:Substation), (trgtBus)-[:HAS]->(:Voltage{name:'400 kV'}) where toLower(n.name) contains 'sasan' return distinct trgt.name
