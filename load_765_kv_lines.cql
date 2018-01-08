@@ -79,10 +79,11 @@ MERGE (line_owner:Owner { name: trim(line_owner_name) })
 MERGE (lineEl)-[:OWNED_BY]->(line_owner)
 ;
 
-match (n:Substation) with count(n) as ss_count
-match (b:Bus) with count(b) as bus_count, ss_count
-match (b:Line) with count(b) as line_count, bus_count, ss_count
-match (b:Owner) with count(b) as owner_count, line_count, bus_count, ss_count
-match (b:LineReactor) with count(b) as lr_count, owner_count, line_count, bus_count, ss_count
-match (b) where any(l in labels(b) WHERE l in ['Line','Bus']) return count(b) as el_count, owner_count, line_count, bus_count, lr_count, ss_count
+optional match (n:Substation) with count(n) as ss_count
+optional match (b:Bus) with count(b) as bus_count, ss_count
+optional match (b:Line) with count(b) as line_count, bus_count, ss_count
+optional match (b:Owner) with count(b) as owner_count, line_count, bus_count, ss_count
+optional match (b:LineReactor) with count(b) as lr_count, owner_count, line_count, bus_count, ss_count
+optional match (b:BusReactor) with count(b) as br_count, lr_count, owner_count, line_count, bus_count, ss_count
+optional match (b) where any(l in labels(b) WHERE l in ['Line','Bus', 'LineReactor', 'BusReactor']) return count(b) as el_count, owner_count, line_count, bus_count, lr_count, br_count, ss_count
 ;
