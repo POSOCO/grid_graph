@@ -1,0 +1,2 @@
+match (b2:Bus)<-[:CONNECTED_TO]-(ict:ICT)-[:CONNECTED_TO]->(b1:Bus)-[:LOCATED_IN]->(sub1:Substation)-[:OWNED_BY]->(owner:Owner), (b1)-[:HAS]->(:Voltage{name: '765 kV'}),(b2)-[:HAS]->(:Voltage{name: '400 kV'}), (b2)-[:LOCATED_IN]->(sub1) with ict, collect(owner.name) as owner_names, sub1 return sub1.name, ict.mva, ict.id, owner_names, ict.nor_tap_pos, ict.pres_tap_pos order by sub1.name, ict.id
+;
