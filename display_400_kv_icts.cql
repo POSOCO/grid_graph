@@ -1,0 +1,2 @@
+match (b2:Bus)<-[:CONNECTED_TO]-(ict:ICT)-[:CONNECTED_TO]->(b1:Bus)-[:LOCATED_IN]->(sub1:Substation)-[:OWNED_BY]->(owner:Owner), (b1)-[:HAS]->(v1:Voltage{name: '400 kV'}), (b2)-[:HAS]->(v2:Voltage), (b2)-[:LOCATED_IN]->(sub1) where v2.name in ['220 kV', '132 kV'] with v1.name+'/'+v2.name as volt_ratio, ict, collect(owner.name) as owner_names, sub1 return volt_ratio, sub1.name, ict.mva, ict.id, owner_names, ict.nor_tap_pos, ict.pres_tap_pos order by sub1.name, ict.id
+;
