@@ -82,12 +82,6 @@ MERGE (line_owner:Owner { name: line_owner_name })
 MERGE (lineEl)-[:OWNED_BY]->(line_owner)
 ;
 
-MATCH (owner1:Owner)<--(ss1:Substation)<--(bus1:Bus)<--(l:Line)-->(bus2:Bus)-->(ss2:Substation)-->(owner2:Owner), (l_owner:Owner)<--(l)
-WHERE ss1.name<ss2.name
-with l, ss1.name as ss1_name,ss2.name as ss2_name, collect(distinct owner1.name) as owner1_names, collect(distinct owner2.name) as owner2_names, collect(distinct l_owner.name) as l_owner_names
-return ss1_name,owner1_names,ss2_name,owner2_names,l.id,l_owner_names order by ss1_name, ss2_name
-;
-
 match (n:Substation) with count(n) as ss_count
 match (b:Bus) with count(b) as bus_count, ss_count
 match (b:Line) with count(b) as line_count, bus_count, ss_count
