@@ -28,29 +28,34 @@ MERGE (ner)-[:BELONGS_TO]->(country);
 	// Load 765 kV brs.
 USING PERIODIC COMMIT
 LOAD CSV WITH HEADERS 
-FROM 'file:///765_kv_brs.csv' AS line
+FROM 'file:///400_kv_brs.csv' AS line
 WITH DISTINCT line
-WHERE line.`Name of S/S` IS NOT NULL AND
+WHERE line.`Substation` IS NOT NULL AND
 	  line.`Owner` IS NOT NULL AND
-	  line.`Sr. No.` IS NOT NULL
-WITH line, toInteger(trim(line.`Rated Voltage`)) as br_rated_volatage, toInteger(trim(line.`240`)) as num_240_mvar_br, toInteger(trim(line.`330`)) as num_330_mvar_br
+	  line.`S.No` IS NOT NULL
+WITH line, toInteger(trim(line.`Rated Voltage`)) as br_rated_volatage, toInteger(trim(line.`50 MVAR`)) as num_50_mvar_br, toInteger(trim(line.`63 MVAR`)) as num_63_mvar_br, toInteger(trim(line.`80 MVAR`)) as num_80_mvar_br, toInteger(trim(line.`125 MVAR`)) as num_125_mvar_br
 
 MERGE (wr:Region { name: 'WR' })
 
-MERGE (volt:Voltage { name: '765 kV'})
+MERGE (volt:Voltage { name: '400 kV'})
 
 MERGE (temp_var:TempVar{val:false})
 
-MERGE (ss:Substation { name: replace(replace(replace(trim(line.`Name of S/S`),"*",""),"^",""),"#","")})
+MERGE (ss:Substation { name: replace(replace(replace(trim(line.`Substation`),"*",""),"^",""),"#","")})
 ON CREATE SET temp_var.val = true
 
 FOREACH (iter IN (case when not temp_var.val then [] else [1] end) | MERGE(owner:Owner{name: trim(line.`Owner`)}) MERGE (wr)<-[:BELONGS_TO]-(ss)-[:OWNED_BY]->(owner))
 
 MERGE (volt)<-[:HAS]-(bus:Bus {id: 1})-[:LOCATED_IN]->(ss)
 
-FOREACH (iter IN (case when num_240_mvar_br IS NULL then [] else range(1, num_240_mvar_br, 1) end) |  MERGE (bus)<-[:CONNECTED_TO]-(:BusReactor {id: iter, mvar: 240, rated_volt: br_rated_volatage}))
+FOREACH (iter IN (case when num_50_mvar_br IS NULL then [] else range(1, num_50_mvar_br, 1) end) |  MERGE (bus)<-[:CONNECTED_TO]-(:BusReactor {id: iter, mvar: 50, rated_volt: br_rated_volatage}))
 
-FOREACH (iter IN (case when num_330_mvar_br IS NULL then [] else range(1, num_330_mvar_br, 1) end) |  MERGE (bus)<-[:CONNECTED_TO]-(:BusReactor {id: iter, mvar: 330, rated_volt: br_rated_volatage}))
+FOREACH (iter IN (case when num_63_mvar_br IS NULL then [] else range(1, num_63_mvar_br, 1) end) |  MERGE (bus)<-[:CONNECTED_TO]-(:BusReactor {id: iter, mvar: 63, rated_volt: br_rated_volatage}))
+
+FOREACH (iter IN (case when num_80_mvar_br IS NULL then [] else range(1, num_80_mvar_br, 1) end) |  MERGE (bus)<-[:CONNECTED_TO]-(:BusReactor {id: iter, mvar: 80, rated_volt: br_rated_volatage}))
+
+FOREACH (iter IN (case when num_125_mvar_br IS NULL then [] else range(1, num_125_mvar_br, 1) end) |  MERGE (bus)<-[:CONNECTED_TO]-(:BusReactor {id: iter, mvar: 125, rated_volt: br_rated_volatage}))
+
 ;
 
 optional match (n:Substation) with count(n) as ss_count

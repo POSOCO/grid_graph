@@ -1,0 +1,2 @@
+match (br:BusReactor)-[:CONNECTED_TO]->(b:Bus)-[:LOCATED_IN]->(sub:Substation)-[:OWNED_BY]->(owner:Owner), (b)-[:HAS]->(:Voltage{name: '400 kV'}) with br, collect(owner.name) as owner_names, sub return sub.name, br.mvar, br.id, owner_names order by sub.name, br.mvar desc, br.id
+;
