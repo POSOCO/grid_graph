@@ -24,8 +24,8 @@ MERGE (er)-[:BELONGS_TO]->(country)
 MERGE (ner:Region { name: 'NER' })
 MERGE (ner)-[:BELONGS_TO]->(country);
 
-	// Load 765 kV ICTs.
-	// 765/400 400/132 400/132
+	// Load 400 kV ICTs.
+	// 765/400 400/132 400/132 are the possible ict ratios
 USING PERIODIC COMMIT
 LOAD CSV WITH HEADERS 
 FROM 'file:///400_kv_icts.csv' AS line
@@ -39,21 +39,27 @@ WITH line, trim(line.`Sub-Station`) as ict_ss_name, toInteger(trim(line.`ID`)) a
 
 MERGE (wr:Region { name: 'WR' })
 
+// merge voltage variables ict_volt volt_up, volt_down
 MERGE (volt_ratio:Voltage { name: (case when ict_volt='400/132' then '400/132 kV' when ict_volt='400/220' then '400/220 kV' when ict_volt='765/400' then '765/400 kV' else '400/220 kV' end)})
 
 MERGE (volt_up:Voltage { name: (case when ict_volt='400/132' then '400 kV' when ict_volt='400/220' then '400 kV' when ict_volt='765/400' then '765 kV' else '400 kV' end)})
 MERGE (volt_down:Voltage { name: (case when ict_volt='400/132' then '132 kV' when ict_volt='400/220' then '220 kV' when ict_volt='765/400' then '400 kV' else '220 kV' end)})
 
+// merge a temp variable for deciding to create a new substation
 MERGE (temp_var:TempVar{val:false})
 
+// merge ict ss, if created set temp_var to true
 MERGE (ict_ss:Substation { name: replace(replace(replace(ict_ss_name,"*",""),"^",""),"#","")})
 ON CREATE SET temp_var.val = true
 
+// if ict_ss was not present before, then set other stuff like owner and region
 FOREACH (iter IN (case when not temp_var.val then [] else [1] end) | MERGE(ict_owner:Owner{name: ict_owner_name}) MERGE (wr)<-[:BELONGS_TO]-(ict_ss)-[:OWNED_BY]->(ict_owner))
 
+// merge volt_up, volt_down buses
 MERGE (volt_up)<-[:HAS]-(ict_bus1:Bus {id: 1})-[:LOCATED_IN]->(ict_ss)
 MERGE (volt_down)<-[:HAS]-(ict_bus2:Bus {id: 1})-[:LOCATED_IN]->(ict_ss)
 
+// merge ict and connect to volt_up and volt_down buses
 MERGE (ict_bus1)<-[:CONNECTED_TO]-(:ICT {id: ict_id, mva: ict_mva, nor_tap_pos: ict_nor_tap_pos, pres_tap_pos: ict_pres_tap_pos})-[:CONNECTED_TO]->(ict_bus2)
 
 ;

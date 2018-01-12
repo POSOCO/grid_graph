@@ -45,33 +45,42 @@ WHERE line.`End-1` IS NOT NULL AND
 WITH line, toInteger(trim(line.`End1 LR MVAR`)) as end1_lr_mvar, (CASE WHEN toLower(trim(line.`End1 LR S/W`)) = 'yes' THEN 1 ELSE 0 END) as end1_lr_sw, toInteger(trim(line.`End2 LR MVAR`)) as end2_lr_mvar, (CASE WHEN toLower(trim(line.`End2 LR S/W`)) = 'yes' THEN 1 ELSE 0 END) as end2_lr_sw	  
 MERGE (wr:Region { name: 'WR' })
 
+// Merge line voltage variable
 MERGE (volt:Voltage { name: '765 kV'})
 
+// Merge the line ss1, its owner and region
 MERGE (ss1_owner:Owner{name: trim(line.`End-1 Owner`)})
 
 MERGE (ss1:Substation { name: replace(replace(replace(trim(line.`End-1`),"*",""),"^",""),"#","")})
 MERGE (ss1)-[:OWNED_BY]->(ss1_owner)
 MERGE (ss1)-[:BELONGS_TO]->(wr)
 
+// Merge the line ss2, its owner and region
 MERGE (ss2_owner:Owner { name: trim(line.`End-2 Owner`) })
 
 MERGE (ss2:Substation { name: replace(replace(replace(trim(line.`End-2`),"*",""),"^",""),"#","")})
 MERGE (ss2)-[:OWNED_BY]->(ss2_owner)
 MERGE (ss2)-[:BELONGS_TO]->(wr)
 
+// Merge ss1 bus and ss2 bus and assign voltages to the buses
 MERGE (volt)<-[:HAS]-(bus1:Bus {id: 1})-[:LOCATED_IN]->(ss1)
 
 MERGE (volt)<-[:HAS]-(bus2:Bus {id: 1})-[:LOCATED_IN]->(ss2)
 
+// Merge line connecting to the ss1 bus and ss2 bus and set line properties like sil, km, conductor_type, no_load_mvar
 MERGE (bus1)<-[:CONNECTED_TO]-(lineEl:Line { id: trim(line.Id) })-[:CONNECTED_TO]->(bus2)
 SET lineEl.sil = toInteger(line.SIL)
 SET lineEl.km = toInteger(line.Km)
 SET lineEl.conductor_type = trim(line.`Conductor Type`)
 SET lineEl.no_load_mvar = trim(line.`No Load MVAR Generated`)
 
+// if end1_lr_mvar value is a valid number (not null) then create a line reactor connecting to ss1 bus and line
 FOREACH (mvar_val IN (case when end1_lr_mvar IS NULL then [] else [end1_lr_mvar] end) |  MERGE (bus1)<-[:CONNECTED_TO]-(:LineReactor {id: 1, mvar: mvar_val, sw: end1_lr_sw})-[:CONNECTED_TO]->(lineEl))
+
+// if end2_lr_mvar value is a valid number (not null) then create a line reactor connecting to ss2 bus and line
 FOREACH (mvar_val IN (case when end2_lr_mvar IS NULL then [] else [end2_lr_mvar] end) |  MERGE (bus2)<-[:CONNECTED_TO]-(:LineReactor {id: 1, mvar: mvar_val, sw: end2_lr_sw})-[:CONNECTED_TO]->(lineEl))
 
+// split line owners string by / and create owners and attach them to the line
 WITH SPLIT(line.`Line Owner`, '/') AS line_owners_names, lineEl
 UNWIND range(0,size(line_owners_names)-1) AS i
 WITH line_owners_names[i] AS line_owner_name, lineEl
