@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WRLDC Grid Elements</title>
+    <link rel="stylesheet" type="text/css" href="./home.css">
+    <link rel="shortcut icon" type="image/ico"
+          href="https://raw.githubusercontent.com/POSOCO/grid_elements_api/gh-pages/favicon.ico"/>
+</head>
+<body>
+<div class="wrapper">
+    <h3>Upload the states csv file here...</h3>
+    <input type="file" id="StatesFileInput"></td>
+    <br><br>
+    <button id="statesButton" onclick="createStatesAsync()" class="generate_button">Feed States</button>
+    <br><br>
+    <button id="regionsButton" onclick="createRegionsAsync()" class="generate_button">Feed Regions</button>
+    <br><br>
+    <button id="regionsButton" onclick="createVoltagesAsync()" class="generate_button">Feed Voltages</button>
+    <br><br>
+    <button id="elementTypesButton" onclick="createElementTypesAsync()" class="generate_button">Feed Element Types
+    </button>
+    <br><br>
+    <button id="conductorTypesButton" onclick="createConductorTypesAsync()" class="generate_button">Feed Conductor
+        Types
+    </button>
+    <br><br>
+    <button id="OwnersButton" onclick="createOwnersAsync()" class="generate_button">Feed Owners</button>
+    <br><br>
+    <button id="SubstationsButton" onclick="createSubstationsAsync()" class="generate_button">Feed Substations</button>
+    <br><br>
+    <button id="LinesButton" onclick="createLinesAsync()" class="generate_button">Feed Lines</button>
+    <br><br>
+    <button id="LineReactorsButton" onclick="createLineReactorsAsync()" class="generate_button">Feed Line Reactors
+    </button>
+    <br><br>
+    <button id="BusReactorsButton" onclick="createBusReactorsAsync()" class="generate_button">Feed Bus Reactors
+    </button>
+    <br><br>
+    <button id="ICTsButton" onclick="createIctsAsync()" class="generate_button">Feed ICTs
+    </button>
+    <br><br>
+    <button id="FSCsButton" onclick="createFscsAsync(1)" class="generate_button">Feed FSCs
+    </button>
+    <br><br>
+    <button id="TCSCsButton" onclick="createFscsAsync(0)" class="generate_button">Feed TCSCs
+    </button>
+    <br><br>
+
+    <div class="hidingClass">
+        <div id="console" style="border: 1px solid black;width: 95%;height: 300px;overflow: scroll;">
+        </div>
+        <button onclick="clearConsole()">Clear Text Area</button>
+    </div>
+    <div class="push"></div>
+</div>
+<div id="footer" class="footer"
+     style='background-color:#217346;color:#EEEEEE;width:100%;padding-left:1em;'>
+    <span>The Code for this WebApp is hosted at </span><a
+            href="https://github.com/POSOCO/grid_elements_api"
+            style="color:#dddddd;" target="_blank">https://github.com/POSOCO/grid_elements_api</a>
+</div>
+<script src="./libs/jquery/jquery-1.7.min.js"></script>
+<script src="csvToArray.js"></script>
+<script src="consoleFunctions.js"></script>
+<script src="home.js"></script>
+<script src="home-async.js"></script>
+<script src="owners.js"></script>
+<script src="substation.js"></script>
+<script src="line.js"></script>
+</body>
+</html>

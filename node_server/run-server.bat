@@ -1,0 +1,1 @@
+pm2 start app.js --name="grid_elements_browser"
