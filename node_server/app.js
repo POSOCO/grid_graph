@@ -46,6 +46,7 @@ app.use('/api/elements', require('./project/controllers/element'));
 app.use('/api/lines', require('./project/controllers/line'));
 app.use('/api/regions', require('./project/controllers/region'));
 app.use('/api/voltages', require('./project/controllers/voltage'));
+app.use('/api/owners', require('./project/controllers/owner'));
 app.use('/', require('./project/controllers/general'));
 
 

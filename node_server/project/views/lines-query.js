@@ -25,9 +25,8 @@ window.onload = function () {
     });
     /*
 	refreshTableData();
-    getTypesFromServer();
-    getStatesFromServer();
-	*/
+    */
+	getOwnersFromServer();
 	getVoltagesFromServer();
 	getRegionsFromServer();
     getConductorTypesFromServer();
@@ -37,12 +36,10 @@ window.onload = function () {
 function refreshTableData() {
     var table = $('#example').dataTable();
     var payLoad = {
-        name: document.getElementById("name_search_str").value,
+        ss_name: document.getElementById("ss_name_search_str").value,
         owner: document.getElementById("owner_search_str").value,
         voltage: document.getElementById("volt_level_search_str").value,
-        type: document.getElementById("type_search_str").value,
         region: document.getElementById("region_search_str").value,
-        stateStr: document.getElementById("state_search_str").value,
         conductor_type: document.getElementById("cond_type_search_str").value,
         limit_rows: document.getElementById("server_rows_limit_input").value,
         offset_page: document.getElementById("server_rows_page_input").value
@@ -68,21 +65,21 @@ function refreshTableData() {
     });
 }
 
-function getTypesFromServer() {
+function getOwnersFromServer() {
     $.ajax({
-        url: "/api/element_types/",
+        url: "/api/owners/",
         type: 'GET',
         success: function (result) {
             //toastr["info"]("Data received from server");
             console.log(result);
-            var dataArray = result.data;
+            var dataArray = result.owners;
             if (typeof dataArray != 'undefined' && dataArray != null && dataArray.constructor === Array && dataArray.length > 0) {
-                document.getElementById('type_search_str').innerHTML = "";
-                appendOptionsToSelectBox("type_search_str", "", "-- Please select --");
+                document.getElementById('owner_search_str').innerHTML = "";
+                appendOptionsToSelectBox("owner_search_str", "", "-- Please select --");
                 for (var i = 0; i < dataArray.length; i++) {
-                    appendOptionsToSelectBox("type_search_str", dataArray[i].type, dataArray[i].type);
+                    appendOptionsToSelectBox("owner_search_str", dataArray[i].name, dataArray[i].name);
                 }
-                $('#type_search_str').selectpicker('refresh');
+                $('#owner_search_str').selectpicker('refresh');
             }
         },
         error: function (textStatus, errorThrown) {

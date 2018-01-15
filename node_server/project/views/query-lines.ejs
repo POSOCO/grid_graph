@@ -73,8 +73,8 @@
                         <table class="table">
                             <tr>
                                 <td>
-                                    <label for="name_search_str">Name</label><br>
-                                    <input type="text" id="name_search_str" value="">
+                                    <label for="ss_name_search_str">S/S Name</label><br>
+                                    <input type="text" id="ss_name_search_str" value="">
                                 </td>
                                 <td>
                                     <label for="volt_level_search_str">Voltage</label>
@@ -85,7 +85,10 @@
                                 </td>
                                 <td>
                                     <label for="owner_search_str">Owner</label><br>
-                                    <input type="text" id="owner_search_str" value="">
+									<select name="owner_search_str" id="owner_search_str"
+                                            class="form-control show-tick">
+                                        <option value="">-- Please select --</option>
+                                    </select>                                    
                                 </td>
                                 <td>
                                     <label for="region_search_str">Region</label>
@@ -111,10 +114,10 @@
                                         <option value="">-- Please select --</option>
                                     </select>
                                 </td>
-                                <td>
+								<td>
                                     <button class="btn btn-primary" onclick="refreshTableData()">Search</button>
                                 </td>
-                            </tr>
+							</tr>
                         </table>
                         <table class="table table-bordered table-striped table-hover dataTable js-exportable"
                                id="example">
