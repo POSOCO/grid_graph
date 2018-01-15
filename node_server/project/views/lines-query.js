@@ -23,12 +23,15 @@ window.onload = function () {
             {"data": "noloadmvar"}
         ]
     });
-    refreshTableData();
+    /*
+	refreshTableData();
     getTypesFromServer();
-    getVoltagesFromServer();
-    getRegionsFromServer();
     getStatesFromServer();
+	*/
+	getVoltagesFromServer();
+	getRegionsFromServer();
     getConductorTypesFromServer();
+	
 };
 
 function refreshTableData() {
@@ -96,12 +99,12 @@ function getVoltagesFromServer() {
         success: function (result) {
             //toastr["info"]("Data received from server");
             console.log(result);
-            var dataArray = result.data;
+            var dataArray = result.voltages;
             if (typeof dataArray != 'undefined' && dataArray != null && dataArray.constructor === Array && dataArray.length > 0) {
                 document.getElementById('volt_level_search_str').innerHTML = "";
                 appendOptionsToSelectBox("volt_level_search_str", "", "-- Please select --");
                 for (var i = 0; i < dataArray.length; i++) {
-                    appendOptionsToSelectBox("volt_level_search_str", dataArray[i].level, dataArray[i].level);
+                    appendOptionsToSelectBox("volt_level_search_str", dataArray[i].name, dataArray[i].name);
                 }
                 $('#volt_level_search_str').selectpicker('refresh');
             }
@@ -120,7 +123,7 @@ function getRegionsFromServer() {
         success: function (result) {
             //toastr["info"]("Data received from server");
             console.log(result);
-            var dataArray = result.data;
+            var dataArray = result.regions;
             if (typeof dataArray != 'undefined' && dataArray != null && dataArray.constructor === Array && dataArray.length > 0) {
                 document.getElementById('region_search_str').innerHTML = "";
                 appendOptionsToSelectBox("region_search_str", "", "-- Please select --");
@@ -137,46 +140,20 @@ function getRegionsFromServer() {
     });
 }
 
-function getStatesFromServer() {
-    $.ajax({
-        url: "/api/states/",
-        type: 'GET',
-        success: function (result) {
-            //toastr["info"]("Data received from server");
-            console.log(result);
-            var dataArray = result.data;
-            if (typeof dataArray != 'undefined' && dataArray != null && dataArray.constructor === Array && dataArray.length > 0) {
-                document.getElementById('state_search_str').innerHTML = "";
-                appendOptionsToSelectBox("state_search_str", "", "-- Please select --");
-                for (var i = 0; i < dataArray.length; i++) {
-                    if (dataArray[i].name.trim() != "") {
-                        appendOptionsToSelectBox("state_search_str", dataArray[i].name, dataArray[i].name);
-                    }
-                }
-                $('#state_search_str').selectpicker('refresh');
-            }
-        },
-        error: function (textStatus, errorThrown) {
-            console.log(textStatus);
-            console.log(errorThrown);
-        }
-    });
-}
-
 function getConductorTypesFromServer() {
     $.ajax({
-        url: "/api/conductor_types/",
+        url: "/api/lines/conductor_types",
         type: 'GET',
         success: function (result) {
             //toastr["info"]("Data received from server");
             console.log(result);
-            var dataArray = result.data;
+            var dataArray = result.conductor_types;
             if (typeof dataArray != 'undefined' && dataArray != null && dataArray.constructor === Array && dataArray.length > 0) {
                 document.getElementById('cond_type_search_str').innerHTML = "";
                 appendOptionsToSelectBox("cond_type_search_str", "", "-- Please select --");
                 for (var i = 0; i < dataArray.length; i++) {
-                    if (dataArray[i].name.trim() != "") {
-                        appendOptionsToSelectBox("cond_type_search_str", dataArray[i].name, dataArray[i].name);
+                    if (dataArray[i].trim() != "") {
+                        appendOptionsToSelectBox("cond_type_search_str", dataArray[i], dataArray[i]);
                     }
                 }
                 $('#cond_type_search_str').selectpicker('refresh');

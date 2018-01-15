@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', function (req, res) {
-    res.redirect('/query');
+    res.redirect('/query-lines');
 });
 
 router.get('/home', function (req, res) {

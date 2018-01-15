@@ -43,6 +43,9 @@ app.use(favicon(__dirname + '/project/public/img/favicon.ico'));
 //app.use('/', require('./project/controllers/auth'));
 
 app.use('/api/elements', require('./project/controllers/element'));
+app.use('/api/lines', require('./project/controllers/line'));
+app.use('/api/regions', require('./project/controllers/region'));
+app.use('/api/voltages', require('./project/controllers/voltage'));
 app.use('/', require('./project/controllers/general'));
 
 
@@ -75,7 +78,7 @@ app.use(function (req, res, next) {
 app.use(function (err, req, res, next) {
     res.status(err.status || 500);
     //db.disconnect();
-    console.log(err);
+    //console.log(err);
     res.render('error', {
         message: err.message,
         Error: err.message,
@@ -85,9 +88,9 @@ app.use(function (err, req, res, next) {
 
 // Start the app
 app.listen(port, function () {
-            console.log('Listening on port ' + port + ' ...');
-            //throw new Error("Custom Test Error");
-        });
+		console.log('Listening on port ' + port + ' ...');
+		//throw new Error("Custom Test Error");
+	});
 
 function exitHandler(options, err) {
     console.log("inside the exit handler...");
