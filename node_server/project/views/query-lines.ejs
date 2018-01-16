@@ -29,11 +29,11 @@
     <!-- JQuery DataTable Css -->
     <link href="plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css" rel="stylesheet">
 
-    <!-- Custom Css -->
-    <link href="css/style.css" rel="stylesheet">
-
     <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
     <link href="css/themes/all-themes.css" rel="stylesheet"/>
+	
+	<!-- Custom Css -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body class="theme-red">
@@ -50,7 +50,7 @@
 <section class="content">
     <div class="container-fluid">
         <!-- Exportable Table -->
-        <div class="row clearfix">
+        <div class="row clearfix" style="margin-left:-42px;margin-right:-42px">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="card">
                     <div class="header">
@@ -72,72 +72,68 @@
                     <div class="body">
                         <table class="table">
                             <tr>
-                                <td>
-                                    <label for="ss_name_search_str">S/S Name</label><br>
-                                    <input type="text" id="ss_name_search_str" value="">
-                                </td>
-                                <td>
-                                    <label for="volt_level_search_str">Voltage</label>
-                                    <select name="volt_level_search_str" id="volt_level_search_str"
-                                            class="form-control show-tick">
-                                        <option value="">-- Please select --</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    <label for="owner_search_str">Owner</label><br>
-									<select name="owner_search_str" id="owner_search_str"
-                                            class="form-control show-tick">
-                                        <option value="">-- Please select --</option>
-                                    </select>                                    
-                                </td>
-                                <td>
-                                    <label for="region_search_str">Region</label>
-                                    <select name="region_search_str" id="region_search_str"
-                                            class="form-control show-tick">
-                                        <option value="">-- Please select --</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label for="server_rows_limit_input">Rows per fetch</label>
-                                    <input type="number" id="server_rows_limit_input" value="10">
-                                </td>
-                                <td>
-                                    <label for="server_rows_page_input">Page</label>
-                                    <input type="number" id="server_rows_page_input" value="0" min="0" step="1">
-                                </td>
-                                <td>
-                                    <label for="cond_type_search_str">Conductor Type</label>
-                                    <select name="cond_type_search_str" id="cond_type_search_str"
-                                            class="form-control show-tick">
-                                        <option value="">-- Please select --</option>
-                                    </select>
-                                </td>
-								<td>
-                                    <button class="btn btn-primary" onclick="refreshTableData()">Search</button>
-                                </td>
+								<div class = "row">
+									<div class="col-md-2 col-xs-6" style="padding:8px;padding-left:12px">
+										<input type="text" id="ss_name_search_str" value="" placeholder="S/S name">
+									</div>
+									<div class="col-md-1 col-xs-6" style="padding:8px">
+										<select name="volt_level_search_str" id="volt_level_search_str"
+												class="form-control show-tick">
+											<option value="">-- Voltage --</option>
+										</select>
+									</div>
+									<div class="col-md-1 col-xs-4" style="padding:8px">
+										<select name="owner_search_str" id="owner_search_str"
+												class="form-control show-tick">
+											<option value="">-- Owner --</option>
+										</select>                                    
+									</div>
+									<div class="col-md-1 col-xs-4" style="padding:8px">
+										<select name="region_search_str" id="region_search_str"
+												class="form-control show-tick">
+											<option value="">-- Region --</option>
+										</select>
+									</div>
+									<div class="col-md-2 col-xs-4"style="padding:8px">
+										<select name="cond_type_search_str" id="cond_type_search_str"
+												class="form-control show-tick">
+											<option value="">-- Conductor Type --</option>
+										</select>
+									</div>
+									<div class="col-md-2 col-xs-4" style="padding:8px">
+										<label for="server_rows_limit_input">Rows / fetch</label>
+										<input type="number" id="server_rows_limit_input" value="100" style="width:70px">
+									</div>
+									<div class="col-md-2 col-xs-4" style="padding:8px">
+										<label for="server_rows_page_input">Page</label>
+										<input type="number" id="server_rows_page_input" value="0" min="0" step="1" style="width:70px">
+									</div>
+									
+									<div class="col-md-1 col-xs-4" style="padding:8px">
+										<button class="btn btn-primary" onclick="refreshTableData()">Search</button>
+									</div>
+								</div>
 							</tr>
                         </table>
                         <table class="table table-bordered table-striped table-hover dataTable js-exportable"
                                id="example">
                             <thead>
                             <tr>
-                                <th>ID</th>
-                                <th>Name</th>
-                                <th>Description</th>
-                                <th>Line_Conductor_Type</th>
-                                <th>Level</th>
-                                <th>Owner_Names</th>
-                                <th>Region_Names</th>
-                                <th>State_Names</th>
-                                <th>SS_Names</th>
-                                <th>Num</th>
-                                <th>SS_Owner_names</th>
-                                <th>SS_Region_names</th>
-                                <th>SS_State_Names</th>
-                                <th>Line_Length</th>
-                                <th>Line_No_Load_MVAR</th>
+                                <th>voltage</th>
+								<th>ss1</th>
+								<th>ss2</th>								
+								<th>line_id</th>
+								<th>line_owners</th>
+								<th>conductor_type</th>
+								<th>ss1_owners</th>
+								<th>ss2_owners</th>
+								<th>km</th>
+								<th>sil</th>
+								<th>no_load_mvar</th>
+								<th>end1_lr_mvar</th>
+								<th>end1_lr_sw</th>
+								<th>end2_lr_mvar</th>
+								<th>end2_lr_sw</th>
                             </tr>
                             </thead>
                             <tbody></tbody>

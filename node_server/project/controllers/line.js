@@ -12,6 +12,8 @@ router.get('/', function (req, res, next) {
 	selOptions['owner'] = req.query.owner;
 	selOptions['substation'] = req.query.ss_name;
 	selOptions['cond_type'] = req.query.conductor_type;
+	selOptions['limit_rows'] = req.query.limit_rows;
+	selOptions['offset_page'] = req.query.offset_page;	
 	console.log(selOptions);
 	LineModel.getLines(selOptions, function(err, lines){
 		if (err) {return next(err);}
